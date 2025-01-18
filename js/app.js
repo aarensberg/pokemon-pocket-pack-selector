@@ -25,7 +25,7 @@ class PokemonCardSelector {
             this.calculateDropRates();
             return this.cards;
         } catch (error) {
-            console.error('Erreur lors de l\'initialisation:', error);
+            console.error('Error during initialization:', error);
             return [];
         }
     }
@@ -35,7 +35,7 @@ class PokemonCardSelector {
         
         for (const pack of packs) {
             for (const card of this.cards) {
-                if (card.expansionId !== 'PROMO-A' && card.foundInPacks.includes(pack)) {
+                if (card.foundInPacks.includes(pack)) {
                     const packName = pack.split(' ')[0];
                     const rates = this.offeringRates[pack];
                     
@@ -68,9 +68,7 @@ class PokemonCardSelector {
         }
 
         for (const cardNumber of this.selectedCards) {
-            const card = this.cards.find(c => 
-                c.expansionId === 'A1' && c.collectionNumber === cardNumber
-            );
+            const card = this.cards.find(c => c.collectionNumber === cardNumber);
 
             if (card) {
                 Object.entries(card).forEach(([key, value]) => {

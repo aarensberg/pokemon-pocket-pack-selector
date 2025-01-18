@@ -1,52 +1,47 @@
-# Sélecteur de Boosters Pokémon
+# Pokémon Booster Selector
 
-Une application web permettant de calculer les meilleurs boosters à acheter en fonction des cartes Pokémon souhaitées.
+A web application that calculates the score of each booster according to the cards you want.
 
 ## 📋 Description
 
-Cette application aide les joueurs de Pokémon-pocket à optimiser leurs achats de boosters en calculant les taux de drop des cartes désirées en fonction du coût en poussière de chaque carte.
+This app helps Pokémon-pocket players optimize their booster purchases by calculating the drop rates of desired cards based on the dust cost of each card.
 
-## 🚀 Installation
+## 🚀 Usage
 
-1. Clonez le repository :
-```bash
-git clone https://github.com/votre-username/pokemon-booster-selector.git
-cd pokemon-booster-selector
-```
+1. Go to https://aarensberg.github.io/pokemon-pocket-pack-selector/
 
-2. Ouvrez `index.html` dans votre navigateur ou utilisez un serveur local (recommandé) :
-```bash
-python -m http.server
-# ou
-npx live-server
-```
+2. Select the cards you wish to obtain
 
-## 🛠 Fonctionnalités
+3. Click on the `Calculate scores` button
 
-- Affichage des cartes disponibles avec leurs illustrations
-- Sélection multiple de cartes via des cases à cocher
-- Calcul automatique des taux de drop par booster
-- Classement des boosters par efficacité
+## 🛠 Features
 
-## 📁 Structure du Projet
+- Display of available maps with illustrations
+- Multiple card selection via checkboxes
+- Automatic calculation of drop rates per booster
+- Ranking of boosters by efficiency
+
+## 📁 Project structure
 
 ```
 pokemon-booster-selector/
 ├── assets/
-│   ├── data/
-│   │   ├── game-data.json
-│   │   └── offering-rates.json
-│   └── images/
+│ ├── cards-illustrations/
+│ ├── data/
+│ │ ├── cards-fetcher.py
+│ │ ├── cards.json
+│ │ └── offering-rates.json
+│ └── expansions-logo/
 ├── css/
-│   └── style.css
+│ └── style.css
 ├── js/
-│   ├── api.js
-│   ├── app.js
-│   └── ui.js
+│ ├── app.js
+│ ├── requests.js
+│ └── ui.js
 └── index.html
 ```
 
-## 🔧 Technologies Utilisées
+## 🔧 Technologies Used
 
 - HTML5
 - CSS3
