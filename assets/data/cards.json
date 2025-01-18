@@ -1,0 +1,4067 @@
+[
+    {
+        "rarity": "C",
+        "name": "Bulbasaur",
+        "collectionNumber": 1,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Ivysaur",
+        "collectionNumber": 2,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Venusaur",
+        "collectionNumber": 3,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Venusaur ex",
+        "collectionNumber": 4,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Caterpie",
+        "collectionNumber": 5,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Metapod",
+        "collectionNumber": 6,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Butterfree",
+        "collectionNumber": 7,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Weedle",
+        "collectionNumber": 8,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Kakuna",
+        "collectionNumber": 9,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Beedrill",
+        "collectionNumber": 10,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Oddish",
+        "collectionNumber": 11,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Gloom",
+        "collectionNumber": 12,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Vileplume",
+        "collectionNumber": 13,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Paras",
+        "collectionNumber": 14,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Parasect",
+        "collectionNumber": 15,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Venonat",
+        "collectionNumber": 16,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Venomoth",
+        "collectionNumber": 17,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Bellsprout",
+        "collectionNumber": 18,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Weepinbell",
+        "collectionNumber": 19,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Victreebel",
+        "collectionNumber": 20,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Exeggcute",
+        "collectionNumber": 21,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Exeggutor",
+        "collectionNumber": 22,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Exeggutor ex",
+        "collectionNumber": 23,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Tangela",
+        "collectionNumber": 24,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Scyther",
+        "collectionNumber": 25,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Pinsir",
+        "collectionNumber": 26,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Cottonee",
+        "collectionNumber": 27,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Whimsicott",
+        "collectionNumber": 28,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Petilil",
+        "collectionNumber": 29,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Lilligant",
+        "collectionNumber": 30,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Skiddo",
+        "collectionNumber": 31,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Gogoat",
+        "collectionNumber": 32,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Charmander",
+        "collectionNumber": 33,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Charmeleon",
+        "collectionNumber": 34,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Charizard",
+        "collectionNumber": 35,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Charizard ex",
+        "collectionNumber": 36,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Vulpix",
+        "collectionNumber": 37,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Ninetales",
+        "collectionNumber": 38,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Growlithe",
+        "collectionNumber": 39,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Arcanine",
+        "collectionNumber": 40,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Arcanine ex",
+        "collectionNumber": 41,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Ponyta",
+        "collectionNumber": 42,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Rapidash",
+        "collectionNumber": 43,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Magmar",
+        "collectionNumber": 44,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Flareon",
+        "collectionNumber": 45,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Moltres",
+        "collectionNumber": 46,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Moltres ex",
+        "collectionNumber": 47,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Heatmor",
+        "collectionNumber": 48,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Salandit",
+        "collectionNumber": 49,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Salazzle",
+        "collectionNumber": 50,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Sizzlipede",
+        "collectionNumber": 51,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Centiskorch",
+        "collectionNumber": 52,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Squirtle",
+        "collectionNumber": 53,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Wartortle",
+        "collectionNumber": 54,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Blastoise",
+        "collectionNumber": 55,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Blastoise ex",
+        "collectionNumber": 56,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Psyduck",
+        "collectionNumber": 57,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Golduck",
+        "collectionNumber": 58,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Poliwag",
+        "collectionNumber": 59,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Poliwhirl",
+        "collectionNumber": 60,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Poliwrath",
+        "collectionNumber": 61,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Tentacool",
+        "collectionNumber": 62,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Tentacruel",
+        "collectionNumber": 63,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Seel",
+        "collectionNumber": 64,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Dewgong",
+        "collectionNumber": 65,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Shellder",
+        "collectionNumber": 66,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Cloyster",
+        "collectionNumber": 67,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Krabby",
+        "collectionNumber": 68,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Kingler",
+        "collectionNumber": 69,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Horsea",
+        "collectionNumber": 70,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Seadra",
+        "collectionNumber": 71,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Goldeen",
+        "collectionNumber": 72,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Seaking",
+        "collectionNumber": 73,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Staryu",
+        "collectionNumber": 74,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Starmie",
+        "collectionNumber": 75,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Starmie ex",
+        "collectionNumber": 76,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Magikarp",
+        "collectionNumber": 77,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Gyarados",
+        "collectionNumber": 78,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Lapras",
+        "collectionNumber": 79,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Vaporeon",
+        "collectionNumber": 80,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Omanyte",
+        "collectionNumber": 81,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Omastar",
+        "collectionNumber": 82,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Articuno",
+        "collectionNumber": 83,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Articuno ex",
+        "collectionNumber": 84,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Ducklett",
+        "collectionNumber": 85,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Swanna",
+        "collectionNumber": 86,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Froakie",
+        "collectionNumber": 87,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Frogadier",
+        "collectionNumber": 88,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Greninja",
+        "collectionNumber": 89,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Pyukumuku",
+        "collectionNumber": 90,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Bruxish",
+        "collectionNumber": 91,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Snom",
+        "collectionNumber": 92,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Frosmoth",
+        "collectionNumber": 93,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Pikachu",
+        "collectionNumber": 94,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Raichu",
+        "collectionNumber": 95,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Pikachu ex",
+        "collectionNumber": 96,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Magnemite",
+        "collectionNumber": 97,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Magneton",
+        "collectionNumber": 98,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Voltorb",
+        "collectionNumber": 99,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Electrode",
+        "collectionNumber": 100,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Electabuzz",
+        "collectionNumber": 101,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Jolteon",
+        "collectionNumber": 102,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Zapdos",
+        "collectionNumber": 103,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Zapdos ex",
+        "collectionNumber": 104,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Blitzle",
+        "collectionNumber": 105,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Zebstrika",
+        "collectionNumber": 106,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Tynamo",
+        "collectionNumber": 107,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Eelektrik",
+        "collectionNumber": 108,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Eelektross",
+        "collectionNumber": 109,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Helioptile",
+        "collectionNumber": 110,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Heliolisk",
+        "collectionNumber": 111,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Pincurchin",
+        "collectionNumber": 112,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Clefairy",
+        "collectionNumber": 113,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Clefable",
+        "collectionNumber": 114,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Abra",
+        "collectionNumber": 115,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Kadabra",
+        "collectionNumber": 116,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Alakazam",
+        "collectionNumber": 117,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Slowpoke",
+        "collectionNumber": 118,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Slowbro",
+        "collectionNumber": 119,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Gastly",
+        "collectionNumber": 120,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Haunter",
+        "collectionNumber": 121,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Gengar",
+        "collectionNumber": 122,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Gengar ex",
+        "collectionNumber": 123,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Drowzee",
+        "collectionNumber": 124,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Hypno",
+        "collectionNumber": 125,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Mr. Mime",
+        "collectionNumber": 126,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Jynx",
+        "collectionNumber": 127,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Mewtwo",
+        "collectionNumber": 128,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Mewtwo ex",
+        "collectionNumber": 129,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Ralts",
+        "collectionNumber": 130,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Kirlia",
+        "collectionNumber": 131,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Gardevoir",
+        "collectionNumber": 132,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Woobat",
+        "collectionNumber": 133,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Swoobat",
+        "collectionNumber": 134,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Golett",
+        "collectionNumber": 135,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Golurk",
+        "collectionNumber": 136,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Sandshrew",
+        "collectionNumber": 137,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Sandslash",
+        "collectionNumber": 138,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Diglett",
+        "collectionNumber": 139,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Dugtrio",
+        "collectionNumber": 140,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Mankey",
+        "collectionNumber": 141,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Primeape",
+        "collectionNumber": 142,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Machop",
+        "collectionNumber": 143,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Machoke",
+        "collectionNumber": 144,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Machamp",
+        "collectionNumber": 145,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Machamp ex",
+        "collectionNumber": 146,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Geodude",
+        "collectionNumber": 147,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Graveler",
+        "collectionNumber": 148,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Golem",
+        "collectionNumber": 149,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Onix",
+        "collectionNumber": 150,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Cubone",
+        "collectionNumber": 151,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Marowak",
+        "collectionNumber": 152,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Marowak ex",
+        "collectionNumber": 153,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Hitmonlee",
+        "collectionNumber": 154,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Hitmonchan",
+        "collectionNumber": 155,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Rhyhorn",
+        "collectionNumber": 156,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Rhydon",
+        "collectionNumber": 157,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Kabuto",
+        "collectionNumber": 158,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Kabutops",
+        "collectionNumber": 159,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Mienfoo",
+        "collectionNumber": 160,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Mienshao",
+        "collectionNumber": 161,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Clobbopus",
+        "collectionNumber": 162,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Grapploct",
+        "collectionNumber": 163,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Ekans",
+        "collectionNumber": 164,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Arbok",
+        "collectionNumber": 165,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Nidoran\u2640",
+        "collectionNumber": 166,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Nidorina",
+        "collectionNumber": 167,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Nidoqueen",
+        "collectionNumber": 168,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Nidoran\u2642",
+        "collectionNumber": 169,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Nidorino",
+        "collectionNumber": 170,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Nidoking",
+        "collectionNumber": 171,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Zubat",
+        "collectionNumber": 172,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Golbat",
+        "collectionNumber": 173,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Grimer",
+        "collectionNumber": 174,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Muk",
+        "collectionNumber": 175,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Koffing",
+        "collectionNumber": 176,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Weezing",
+        "collectionNumber": 177,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Mawile",
+        "collectionNumber": 178,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Pawniard",
+        "collectionNumber": 179,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Bisharp",
+        "collectionNumber": 180,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Meltan",
+        "collectionNumber": 181,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Melmetal",
+        "collectionNumber": 182,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Dratini",
+        "collectionNumber": 183,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Dragonair",
+        "collectionNumber": 184,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Dragonite",
+        "collectionNumber": 185,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Pidgey",
+        "collectionNumber": 186,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Pidgeotto",
+        "collectionNumber": 187,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Pidgeot",
+        "collectionNumber": 188,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Rattata",
+        "collectionNumber": 189,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Raticate",
+        "collectionNumber": 190,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Spearow",
+        "collectionNumber": 191,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Fearow",
+        "collectionNumber": 192,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Jigglypuff",
+        "collectionNumber": 193,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Wigglytuff",
+        "collectionNumber": 194,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "RR",
+        "name": "Wigglytuff ex",
+        "collectionNumber": 195,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Meowth",
+        "collectionNumber": 196,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Persian",
+        "collectionNumber": 197,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Farfetch\u2019d",
+        "collectionNumber": 198,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Doduo",
+        "collectionNumber": 199,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Dodrio",
+        "collectionNumber": 200,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Lickitung",
+        "collectionNumber": 201,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Chansey",
+        "collectionNumber": 202,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Kangaskhan",
+        "collectionNumber": 203,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Tauros",
+        "collectionNumber": 204,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Ditto",
+        "collectionNumber": 205,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Eevee",
+        "collectionNumber": 206,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Eevee",
+        "collectionNumber": 207,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Eevee",
+        "collectionNumber": 208,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Porygon",
+        "collectionNumber": 209,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Aerodactyl",
+        "collectionNumber": 210,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "R",
+        "name": "Snorlax",
+        "collectionNumber": 211,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Minccino",
+        "collectionNumber": 212,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Cinccino",
+        "collectionNumber": 213,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Wooloo",
+        "collectionNumber": 214,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Dubwool",
+        "collectionNumber": 215,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Helix Fossil",
+        "collectionNumber": 216,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Dome Fossil",
+        "collectionNumber": 217,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Old Amber",
+        "collectionNumber": 218,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mewtwo Pack",
+            "Mew Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Erika",
+        "collectionNumber": 219,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Misty",
+        "collectionNumber": 220,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Blaine",
+        "collectionNumber": 221,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Koga",
+        "collectionNumber": 222,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Giovanni",
+        "collectionNumber": 223,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Brock",
+        "collectionNumber": 224,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Sabrina",
+        "collectionNumber": 225,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "U",
+        "name": "Lt. Surge",
+        "collectionNumber": 226,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Bulbasaur",
+        "collectionNumber": 227,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Gloom",
+        "collectionNumber": 228,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Pinsir",
+        "collectionNumber": 229,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Charmander",
+        "collectionNumber": 230,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Rapidash",
+        "collectionNumber": 231,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Squirtle",
+        "collectionNumber": 232,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Gyarados",
+        "collectionNumber": 233,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Lapras",
+        "collectionNumber": 234,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Electrode",
+        "collectionNumber": 235,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Alakazam",
+        "collectionNumber": 236,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Slowpoke",
+        "collectionNumber": 237,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Diglett",
+        "collectionNumber": 238,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Cubone",
+        "collectionNumber": 239,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Nidoqueen",
+        "collectionNumber": 240,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Nidoking",
+        "collectionNumber": 241,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Golbat",
+        "collectionNumber": 242,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Weezing",
+        "collectionNumber": 243,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Dragonite",
+        "collectionNumber": 244,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Pidgeot",
+        "collectionNumber": 245,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Meowth",
+        "collectionNumber": 246,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Ditto",
+        "collectionNumber": 247,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Eevee",
+        "collectionNumber": 248,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Porygon",
+        "collectionNumber": 249,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "AR",
+        "name": "Snorlax",
+        "collectionNumber": 250,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Venusaur ex",
+        "collectionNumber": 251,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Exeggutor ex",
+        "collectionNumber": 252,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Charizard ex",
+        "collectionNumber": 253,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Arcanine ex",
+        "collectionNumber": 254,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Moltres ex",
+        "collectionNumber": 255,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Blastoise ex",
+        "collectionNumber": 256,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Starmie ex",
+        "collectionNumber": 257,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Articuno ex",
+        "collectionNumber": 258,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Pikachu ex",
+        "collectionNumber": 259,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Zapdos ex",
+        "collectionNumber": 260,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Gengar ex",
+        "collectionNumber": 261,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Mewtwo ex",
+        "collectionNumber": 262,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Machamp ex",
+        "collectionNumber": 263,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Marowak ex",
+        "collectionNumber": 264,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Wigglytuff ex",
+        "collectionNumber": 265,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Erika",
+        "collectionNumber": 266,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Misty",
+        "collectionNumber": 267,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Blaine",
+        "collectionNumber": 268,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Koga",
+        "collectionNumber": 269,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Giovanni",
+        "collectionNumber": 270,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Brock",
+        "collectionNumber": 271,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Sabrina",
+        "collectionNumber": 272,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SR",
+        "name": "Lt. Surge",
+        "collectionNumber": 273,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SAR",
+        "name": "Moltres ex",
+        "collectionNumber": 274,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SAR",
+        "name": "Articuno ex",
+        "collectionNumber": 275,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SAR",
+        "name": "Zapdos ex",
+        "collectionNumber": 276,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SAR",
+        "name": "Gengar ex",
+        "collectionNumber": 277,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SAR",
+        "name": "Machamp ex",
+        "collectionNumber": 278,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "SAR",
+        "name": "Wigglytuff ex",
+        "collectionNumber": 279,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "IM",
+        "name": "Charizard ex",
+        "collectionNumber": 280,
+        "dustCost": 1500,
+        "foundInPacks": [
+            "Charizard Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "IM",
+        "name": "Pikachu ex",
+        "collectionNumber": 281,
+        "dustCost": 1500,
+        "foundInPacks": [
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "IM",
+        "name": "Mewtwo ex",
+        "collectionNumber": 282,
+        "dustCost": 1500,
+        "foundInPacks": [
+            "Mewtwo Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "IM",
+        "name": "Mew",
+        "collectionNumber": 283,
+        "dustCost": 1500,
+        "foundInPacks": [],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "UR",
+        "name": "Charizard ex",
+        "collectionNumber": 284,
+        "dustCost": 2500,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "UR",
+        "name": "Pikachu ex",
+        "collectionNumber": 285,
+        "dustCost": 2500,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "UR",
+        "name": "Mewtwo ex",
+        "collectionNumber": 286,
+        "dustCost": 2500,
+        "foundInPacks": [
+            "Charizard Pack",
+            "Mewtwo Pack",
+            "Pikachu Pack"
+        ],
+        "expansionId": "A1"
+    },
+    {
+        "rarity": "C",
+        "name": "Exeggcute",
+        "collectionNumber": 1,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Exeggutor",
+        "collectionNumber": 2,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "RR",
+        "name": "Celebi ex",
+        "collectionNumber": 3,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Snivy",
+        "collectionNumber": 4,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Servine",
+        "collectionNumber": 5,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "R",
+        "name": "Serperior",
+        "collectionNumber": 6,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Morelull",
+        "collectionNumber": 7,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Shiinotic",
+        "collectionNumber": 8,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Dhelmise",
+        "collectionNumber": 9,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Ponyta",
+        "collectionNumber": 10,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Rapidash",
+        "collectionNumber": 11,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Magmar",
+        "collectionNumber": 12,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Larvesta",
+        "collectionNumber": 13,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "R",
+        "name": "Volcarona",
+        "collectionNumber": 14,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Salandit",
+        "collectionNumber": 15,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Salazzle",
+        "collectionNumber": 16,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Magikarp",
+        "collectionNumber": 17,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "RR",
+        "name": "Gyarados ex",
+        "collectionNumber": 18,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "R",
+        "name": "Vaporeon",
+        "collectionNumber": 19,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Finneon",
+        "collectionNumber": 20,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Lumineon",
+        "collectionNumber": 21,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Chewtle",
+        "collectionNumber": 22,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Drednaw",
+        "collectionNumber": 23,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Cramorant",
+        "collectionNumber": 24,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Pikachu",
+        "collectionNumber": 25,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "R",
+        "name": "Raichu",
+        "collectionNumber": 26,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Electabuzz",
+        "collectionNumber": 27,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Joltik",
+        "collectionNumber": 28,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Galvantula",
+        "collectionNumber": 29,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Dedenne",
+        "collectionNumber": 30,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "R",
+        "name": "Mew",
+        "collectionNumber": 31,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "RR",
+        "name": "Mew ex",
+        "collectionNumber": 32,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Sigilyph",
+        "collectionNumber": 33,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Elgyem",
+        "collectionNumber": 34,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Beheeyem",
+        "collectionNumber": 35,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Flab\u00e9b\u00e9",
+        "collectionNumber": 36,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Floette",
+        "collectionNumber": 37,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Florges",
+        "collectionNumber": 38,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Swirlix",
+        "collectionNumber": 39,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Slurpuff",
+        "collectionNumber": 40,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Mankey",
+        "collectionNumber": 41,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Primeape",
+        "collectionNumber": 42,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Geodude",
+        "collectionNumber": 43,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Graveler",
+        "collectionNumber": 44,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "R",
+        "name": "Golem",
+        "collectionNumber": 45,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "RR",
+        "name": "Aerodactyl ex",
+        "collectionNumber": 46,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "R",
+        "name": "Marshadow",
+        "collectionNumber": 47,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Stonjourner",
+        "collectionNumber": 48,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Koffing",
+        "collectionNumber": 49,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Weezing",
+        "collectionNumber": 50,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Purrloin",
+        "collectionNumber": 51,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Liepard",
+        "collectionNumber": 52,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Venipede",
+        "collectionNumber": 53,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Whirlipede",
+        "collectionNumber": 54,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Scolipede",
+        "collectionNumber": 55,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Druddigon",
+        "collectionNumber": 56,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Pidgey",
+        "collectionNumber": 57,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Pidgeotto",
+        "collectionNumber": 58,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "RR",
+        "name": "Pidgeot ex",
+        "collectionNumber": 59,
+        "dustCost": 500,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "R",
+        "name": "Tauros",
+        "collectionNumber": 60,
+        "dustCost": 150,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Eevee",
+        "collectionNumber": 61,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Chatot",
+        "collectionNumber": 62,
+        "dustCost": 35,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Pok\u00e9mon Flute",
+        "collectionNumber": 64,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Mythical Slab",
+        "collectionNumber": 65,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Budding Expeditioner",
+        "collectionNumber": 66,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Blue",
+        "collectionNumber": 67,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "U",
+        "name": "Leaf",
+        "collectionNumber": 68,
+        "dustCost": 70,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "AR",
+        "name": "Exeggutor",
+        "collectionNumber": 69,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "AR",
+        "name": "Serperior",
+        "collectionNumber": 70,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "AR",
+        "name": "Salandit",
+        "collectionNumber": 71,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "AR",
+        "name": "Vaporeon",
+        "collectionNumber": 72,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "AR",
+        "name": "Dedenne",
+        "collectionNumber": 73,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "AR",
+        "name": "Marshadow",
+        "collectionNumber": 74,
+        "dustCost": 400,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SR",
+        "name": "Celebi ex",
+        "collectionNumber": 75,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SR",
+        "name": "Gyarados ex",
+        "collectionNumber": 76,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SR",
+        "name": "Mew ex",
+        "collectionNumber": 77,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SR",
+        "name": "Aerodactyl ex",
+        "collectionNumber": 78,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SR",
+        "name": "Pidgeot ex",
+        "collectionNumber": 79,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SR",
+        "name": "Budding Expeditioner",
+        "collectionNumber": 80,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SR",
+        "name": "Blue",
+        "collectionNumber": 81,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SR",
+        "name": "Leaf",
+        "collectionNumber": 82,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SAR",
+        "name": "Mew ex",
+        "collectionNumber": 83,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "SAR",
+        "name": "Aerodactyl ex",
+        "collectionNumber": 84,
+        "dustCost": 1250,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "IM",
+        "name": "Celebi ex",
+        "collectionNumber": 85,
+        "dustCost": 1500,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "UR",
+        "name": "Mew ex",
+        "collectionNumber": 86,
+        "dustCost": 2500,
+        "foundInPacks": [
+            "Mew Pack"
+        ],
+        "expansionId": "A1a"
+    },
+    {
+        "rarity": "C",
+        "name": "Potion",
+        "collectionNumber": 1,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "X Speed",
+        "collectionNumber": 2,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Hand Scope",
+        "collectionNumber": 3,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Pok\u00e9dex",
+        "collectionNumber": 4,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Pok\u00e9 Ball",
+        "collectionNumber": 5,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Red Card",
+        "collectionNumber": 6,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Professor\u2019s Research",
+        "collectionNumber": 7,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Pok\u00e9dex",
+        "collectionNumber": 8,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "AR",
+        "name": "Pikachu",
+        "collectionNumber": 9,
+        "dustCost": 400,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "AR",
+        "name": "Mewtwo",
+        "collectionNumber": 10,
+        "dustCost": 400,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Chansey",
+        "collectionNumber": 11,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Meowth",
+        "collectionNumber": 12,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Butterfree",
+        "collectionNumber": 13,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "RR",
+        "name": "Lapras ex",
+        "collectionNumber": 14,
+        "dustCost": 500,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Pikachu",
+        "collectionNumber": 15,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Clefairy",
+        "collectionNumber": 16,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Mankey",
+        "collectionNumber": 17,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "AR",
+        "name": "Venusaur",
+        "collectionNumber": 18,
+        "dustCost": 400,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Greninja",
+        "collectionNumber": 19,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Haunter",
+        "collectionNumber": 20,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Onix",
+        "collectionNumber": 21,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Jigglypuff",
+        "collectionNumber": 22,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Bulbasaur",
+        "collectionNumber": 23,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Magnemite",
+        "collectionNumber": 24,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "RR",
+        "name": "Moltres ex",
+        "collectionNumber": 25,
+        "dustCost": 500,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "AR",
+        "name": "Pikachu",
+        "collectionNumber": 26,
+        "dustCost": 400,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Snivy",
+        "collectionNumber": 27,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Volcarona",
+        "collectionNumber": 28,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "AR",
+        "name": "Blastoise",
+        "collectionNumber": 29,
+        "dustCost": 400,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Eevee",
+        "collectionNumber": 30,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "C",
+        "name": "Cinccino",
+        "collectionNumber": 31,
+        "dustCost": 35,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Charmander",
+        "collectionNumber": 32,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    },
+    {
+        "rarity": "R",
+        "name": "Squirtle",
+        "collectionNumber": 33,
+        "dustCost": 150,
+        "foundInPacks": [],
+        "expansionId": "PROMO-A"
+    }
+]
