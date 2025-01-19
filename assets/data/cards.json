@@ -7,7 +7,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -17,7 +18,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "R",
@@ -27,7 +29,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -37,7 +40,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6641675
     },
     {
         "rarity": "C",
@@ -47,7 +51,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -57,7 +62,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -67,7 +73,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -77,7 +84,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -87,7 +95,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -97,7 +106,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -107,7 +117,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -117,7 +128,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -127,7 +139,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -137,7 +150,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -147,7 +161,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -157,7 +172,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -167,7 +183,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "C",
@@ -177,7 +194,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -187,7 +205,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -197,7 +216,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -207,7 +227,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -217,7 +238,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -227,7 +249,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6641675
     },
     {
         "rarity": "C",
@@ -237,7 +260,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -247,7 +271,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -259,7 +284,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -271,7 +299,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -283,7 +314,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -295,7 +329,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -307,7 +344,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -317,7 +357,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -327,7 +368,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -337,7 +379,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -347,7 +390,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -357,7 +401,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -367,7 +412,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6641675
     },
     {
         "rarity": "C",
@@ -377,7 +423,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -387,7 +434,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "C",
@@ -397,7 +445,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -407,7 +456,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -417,7 +467,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6641675
     },
     {
         "rarity": "C",
@@ -429,7 +480,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -441,7 +495,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -451,7 +508,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -461,7 +519,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "R",
@@ -471,7 +530,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -481,7 +541,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6641675
     },
     {
         "rarity": "C",
@@ -493,7 +554,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -503,7 +567,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -513,7 +578,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -525,7 +591,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -537,7 +606,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -547,7 +619,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -557,7 +630,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "R",
@@ -567,7 +641,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -577,7 +652,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6641675
     },
     {
         "rarity": "C",
@@ -589,7 +665,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -601,7 +680,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -611,7 +693,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -621,7 +704,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -631,7 +715,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -641,7 +726,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -651,7 +737,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "C",
@@ -661,7 +748,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -671,7 +759,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -681,7 +770,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -691,7 +781,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "C",
@@ -701,7 +792,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -711,7 +803,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "C",
@@ -721,7 +814,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -731,7 +825,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -741,7 +836,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -751,7 +847,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -761,7 +858,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -771,7 +869,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "RR",
@@ -781,7 +880,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6641675
     },
     {
         "rarity": "C",
@@ -791,7 +891,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -801,7 +902,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "R",
@@ -811,7 +913,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "R",
@@ -821,7 +924,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "U",
@@ -831,7 +935,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "R",
@@ -841,7 +946,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "R",
@@ -851,7 +957,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -861,7 +968,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6641675
     },
     {
         "rarity": "C",
@@ -871,7 +979,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -881,7 +990,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "C",
@@ -891,7 +1001,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -901,7 +1012,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -911,7 +1023,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -921,7 +1034,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -933,7 +1047,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -945,7 +1062,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -957,7 +1077,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -967,7 +1090,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -977,7 +1101,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -987,7 +1112,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6641675
     },
     {
         "rarity": "C",
@@ -997,7 +1123,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -1007,7 +1134,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1017,7 +1145,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1027,7 +1156,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1037,7 +1167,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -1047,7 +1178,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "R",
@@ -1057,7 +1189,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -1067,7 +1200,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6641675
     },
     {
         "rarity": "C",
@@ -1079,7 +1213,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1091,7 +1228,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1101,7 +1241,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1111,7 +1252,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "R",
@@ -1121,7 +1263,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1133,7 +1276,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1145,7 +1291,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1157,7 +1306,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1167,7 +1319,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1177,7 +1330,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1187,7 +1341,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1197,7 +1352,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -1207,7 +1363,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1219,7 +1376,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1231,7 +1391,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1241,7 +1404,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1251,7 +1415,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "R",
@@ -1261,7 +1426,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -1271,7 +1437,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6641675
     },
     {
         "rarity": "C",
@@ -1281,7 +1448,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -1291,7 +1459,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "U",
@@ -1301,7 +1470,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "C",
@@ -1311,7 +1481,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -1321,7 +1492,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -1331,7 +1503,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6641675
     },
     {
         "rarity": "C",
@@ -1341,7 +1514,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1351,7 +1525,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "R",
@@ -1361,7 +1536,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1373,7 +1549,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1385,7 +1564,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1397,7 +1579,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1409,7 +1594,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1421,7 +1609,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1433,7 +1624,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1443,7 +1637,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1453,7 +1648,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1463,7 +1659,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1473,7 +1670,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "C",
@@ -1483,7 +1681,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1493,7 +1692,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -1503,7 +1703,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "RR",
@@ -1513,7 +1714,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6641675
     },
     {
         "rarity": "C",
@@ -1523,7 +1725,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1533,7 +1736,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "R",
@@ -1543,7 +1747,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "U",
@@ -1553,7 +1758,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1563,7 +1769,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1573,7 +1780,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "RR",
@@ -1583,7 +1791,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6641675
     },
     {
         "rarity": "C",
@@ -1593,7 +1802,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1603,7 +1813,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1613,7 +1824,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1623,7 +1835,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "U",
@@ -1633,7 +1846,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -1643,7 +1857,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1653,7 +1868,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1663,7 +1879,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1675,7 +1892,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1687,7 +1907,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1699,7 +1922,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1711,7 +1937,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1721,7 +1950,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1731,7 +1961,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "R",
@@ -1741,7 +1972,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1751,7 +1983,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1761,7 +1994,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "R",
@@ -1771,7 +2005,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1781,7 +2016,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1791,7 +2027,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "C",
@@ -1801,7 +2038,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -1811,7 +2049,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1821,7 +2060,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -1831,7 +2071,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1841,7 +2082,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1853,7 +2095,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1865,7 +2110,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -1875,7 +2123,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -1885,7 +2134,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1895,7 +2145,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -1905,7 +2156,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "R",
@@ -1915,7 +2167,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1925,7 +2178,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1935,7 +2189,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "R",
@@ -1945,7 +2200,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -1957,7 +2213,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1969,7 +2228,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1979,7 +2241,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1989,7 +2252,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -1999,7 +2263,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -2009,7 +2274,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "RR",
@@ -2019,7 +2285,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6641675
     },
     {
         "rarity": "C",
@@ -2029,7 +2296,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -2039,7 +2307,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "C",
@@ -2051,7 +2320,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -2063,7 +2335,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -2075,7 +2350,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "U",
@@ -2085,7 +2363,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "U",
@@ -2095,7 +2374,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "R",
@@ -2105,7 +2385,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.7841075000000002
     },
     {
         "rarity": "U",
@@ -2115,7 +2396,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "R",
@@ -2125,7 +2407,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -2135,7 +2418,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -2145,7 +2429,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -2155,7 +2440,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -2165,7 +2451,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "R",
@@ -2175,7 +2462,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.7841075000000002
     },
     {
         "rarity": "R",
@@ -2185,7 +2473,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.7841075000000002
     },
     {
         "rarity": "C",
@@ -2197,7 +2486,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "U",
@@ -2209,7 +2501,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575,
+        "Drop Rate Mewtwo": 4.2828575,
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "C",
@@ -2221,7 +2516,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -2233,7 +2531,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001,
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -2243,7 +2544,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -2253,7 +2555,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 5.997000000000001
     },
     {
         "rarity": "C",
@@ -2264,7 +2567,9 @@
             "Mewtwo Pack",
             "Mew Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 5.997000000000001,
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -2274,7 +2579,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "U",
@@ -2284,7 +2590,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "U",
@@ -2294,7 +2601,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "U",
@@ -2304,7 +2612,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "U",
@@ -2314,7 +2623,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 4.2828575
     },
     {
         "rarity": "U",
@@ -2324,7 +2634,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "U",
@@ -2334,7 +2645,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 4.2828575
     },
     {
         "rarity": "U",
@@ -2344,7 +2656,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 4.2828575
     },
     {
         "rarity": "AR",
@@ -2354,7 +2667,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6193540000000002
     },
     {
         "rarity": "AR",
@@ -2364,7 +2678,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2374,7 +2689,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2384,7 +2700,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2394,7 +2711,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2404,7 +2722,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2414,7 +2733,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2424,7 +2744,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2434,7 +2755,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2444,7 +2766,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2454,7 +2777,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2464,7 +2788,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2474,7 +2799,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6193540000000002
     },
     {
         "rarity": "AR",
@@ -2484,7 +2810,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2494,7 +2821,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2504,7 +2832,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6193540000000002
     },
     {
         "rarity": "AR",
@@ -2514,7 +2843,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6193540000000002
     },
     {
         "rarity": "AR",
@@ -2524,7 +2854,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6193540000000002
     },
     {
         "rarity": "AR",
@@ -2534,7 +2865,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6193540000000002
     },
     {
         "rarity": "AR",
@@ -2544,7 +2876,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2554,7 +2887,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6193540000000002
     },
     {
         "rarity": "AR",
@@ -2564,7 +2898,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6186965
     },
     {
         "rarity": "AR",
@@ -2574,7 +2909,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.6193540000000002
     },
     {
         "rarity": "AR",
@@ -2584,7 +2920,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.6186965
     },
     {
         "rarity": "SR",
@@ -2594,7 +2931,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SR",
@@ -2604,7 +2942,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SR",
@@ -2614,7 +2953,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SR",
@@ -2624,7 +2964,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SR",
@@ -2634,7 +2975,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SR",
@@ -2644,7 +2986,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SR",
@@ -2654,7 +2997,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SR",
@@ -2664,7 +3008,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SR",
@@ -2674,7 +3019,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SR",
@@ -2684,7 +3030,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SR",
@@ -2694,7 +3041,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SR",
@@ -2704,7 +3052,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SR",
@@ -2714,7 +3063,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SR",
@@ -2724,7 +3074,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SR",
@@ -2734,7 +3085,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SR",
@@ -2744,7 +3096,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SR",
@@ -2754,7 +3107,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SR",
@@ -2764,7 +3118,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SR",
@@ -2774,7 +3129,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SR",
@@ -2784,7 +3140,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SR",
@@ -2794,7 +3151,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SR",
@@ -2804,7 +3162,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SR",
@@ -2814,7 +3173,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SAR",
@@ -2824,7 +3184,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SAR",
@@ -2834,7 +3195,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SAR",
@@ -2844,7 +3206,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "SAR",
@@ -2854,7 +3217,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 0.2900190000000001
     },
     {
         "rarity": "SAR",
@@ -2864,7 +3228,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.262375
     },
     {
         "rarity": "SAR",
@@ -2874,7 +3239,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 0.262375
     },
     {
         "rarity": "IM",
@@ -2884,7 +3250,8 @@
         "foundInPacks": [
             "Charizard Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 1.1219450000000002
     },
     {
         "rarity": "IM",
@@ -2894,7 +3261,8 @@
         "foundInPacks": [
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Pikachu": 1.1219450000000002
     },
     {
         "rarity": "IM",
@@ -2904,7 +3272,8 @@
         "foundInPacks": [
             "Mewtwo Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Mewtwo": 1.1226025000000002
     },
     {
         "rarity": "IM",
@@ -2924,7 +3293,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.07846700000000001,
+        "Drop Rate Mewtwo": 0.0791245,
+        "Drop Rate Pikachu": 0.07846700000000001
     },
     {
         "rarity": "UR",
@@ -2936,7 +3308,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.07846700000000001,
+        "Drop Rate Mewtwo": 0.0791245,
+        "Drop Rate Pikachu": 0.07846700000000001
     },
     {
         "rarity": "UR",
@@ -2948,7 +3323,10 @@
             "Mewtwo Pack",
             "Pikachu Pack"
         ],
-        "expansionId": "A1"
+        "expansionId": "A1",
+        "Drop Rate Charizard": 0.07846700000000001,
+        "Drop Rate Mewtwo": 0.0791245,
+        "Drop Rate Pikachu": 0.07846700000000001
     },
     {
         "rarity": "C",
@@ -2958,7 +3336,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -2968,7 +3347,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "RR",
@@ -2978,7 +3358,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 1.6641675
     },
     {
         "rarity": "C",
@@ -2988,7 +3369,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -2998,7 +3380,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "R",
@@ -3008,7 +3391,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 3.1234375
     },
     {
         "rarity": "C",
@@ -3018,7 +3402,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3028,7 +3413,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "U",
@@ -3038,7 +3424,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3048,7 +3435,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3058,7 +3446,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "U",
@@ -3068,7 +3457,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3078,7 +3468,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "R",
@@ -3088,7 +3479,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 3.1234375
     },
     {
         "rarity": "C",
@@ -3098,7 +3490,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3108,7 +3501,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3118,7 +3512,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "RR",
@@ -3128,7 +3523,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 1.6641675
     },
     {
         "rarity": "R",
@@ -3138,7 +3534,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 3.1234375
     },
     {
         "rarity": "C",
@@ -3148,7 +3545,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3158,7 +3556,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3168,7 +3567,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3178,7 +3578,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3188,7 +3589,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3198,7 +3600,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "R",
@@ -3208,7 +3611,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 3.1234375
     },
     {
         "rarity": "U",
@@ -3218,7 +3622,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3228,7 +3633,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3238,7 +3644,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3248,7 +3655,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "R",
@@ -3258,7 +3666,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 3.1234375
     },
     {
         "rarity": "RR",
@@ -3268,7 +3677,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 1.6641675
     },
     {
         "rarity": "U",
@@ -3278,7 +3688,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3288,7 +3699,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3298,7 +3710,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3308,7 +3721,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3318,7 +3732,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3328,7 +3743,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3338,7 +3754,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3348,7 +3765,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3358,7 +3776,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3368,7 +3787,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3378,7 +3798,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3388,7 +3809,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "R",
@@ -3398,7 +3820,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 3.1234375
     },
     {
         "rarity": "RR",
@@ -3408,7 +3831,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 1.6641675
     },
     {
         "rarity": "R",
@@ -3418,7 +3842,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 3.1234375
     },
     {
         "rarity": "U",
@@ -3428,7 +3853,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3438,7 +3864,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3448,7 +3875,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3458,7 +3886,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3468,7 +3897,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3478,7 +3908,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3488,7 +3919,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3498,7 +3930,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "U",
@@ -3508,7 +3941,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "C",
@@ -3518,7 +3952,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3528,7 +3963,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "RR",
@@ -3538,7 +3974,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 1.6641675
     },
     {
         "rarity": "R",
@@ -3548,7 +3985,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 3.1234375
     },
     {
         "rarity": "C",
@@ -3558,7 +3996,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "C",
@@ -3568,7 +4007,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 9.3703125
     },
     {
         "rarity": "U",
@@ -3578,7 +4018,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "U",
@@ -3588,7 +4029,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "U",
@@ -3598,7 +4040,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "U",
@@ -3608,7 +4051,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "U",
@@ -3618,7 +4062,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 6.5177395
     },
     {
         "rarity": "AR",
@@ -3628,7 +4073,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 2.1548165
     },
     {
         "rarity": "AR",
@@ -3638,7 +4084,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 2.1548165
     },
     {
         "rarity": "AR",
@@ -3648,7 +4095,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 2.1548165
     },
     {
         "rarity": "AR",
@@ -3658,7 +4106,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 2.1548165
     },
     {
         "rarity": "AR",
@@ -3668,7 +4117,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 2.1548165
     },
     {
         "rarity": "AR",
@@ -3678,7 +4128,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 2.1548165
     },
     {
         "rarity": "SR",
@@ -3688,7 +4139,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SR",
@@ -3698,7 +4150,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SR",
@@ -3708,7 +4161,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SR",
@@ -3718,7 +4172,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SR",
@@ -3728,7 +4183,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SR",
@@ -3738,7 +4194,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SR",
@@ -3748,7 +4205,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SR",
@@ -3758,7 +4216,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SAR",
@@ -3768,7 +4227,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "SAR",
@@ -3778,7 +4238,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.2637625
     },
     {
         "rarity": "IM",
@@ -3788,7 +4249,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 1.1233325000000003
     },
     {
         "rarity": "UR",
@@ -3798,7 +4260,8 @@
         "foundInPacks": [
             "Mew Pack"
         ],
-        "expansionId": "A1a"
+        "expansionId": "A1a",
+        "Drop Rate Mew": 0.21378750000000005
     },
     {
         "rarity": "C",

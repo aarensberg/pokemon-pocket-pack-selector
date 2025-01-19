@@ -26,12 +26,13 @@ This app helps Pokémon-pocket players optimize their booster purchases by calcu
 ```
 pokemon-booster-selector/
 ├── assets/
-│ ├── cards-illustrations/
 │ ├── data/
 │ │ ├── cards-fetcher.py
 │ │ ├── cards.json
 │ │ └── offering-rates.json
-│ └── expansions-logo/
+│ ├── image/
+│ │ ├── cards-illustrations/
+│ │ └── expansions-logo/
 ├── css/
 │ └── style.css
 ├── js/

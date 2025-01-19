@@ -8,7 +8,7 @@
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 cartes par ligne */
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     margin-bottom: 20px;
     width: 100%;
@@ -81,7 +81,7 @@
 }
 
 .expansion-section {
-    margin-bottom: 50px; /* Grand espace entre les extensions */
+    margin-bottom: 50px;
     width: 100%;
 }
 
@@ -105,4 +105,117 @@
     padding: 0;
     text-align: left;
     flex-grow: 1;
+}
+
+.search-container {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 100;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 25px;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 5px rgba(74, 175, 80, 0.5);
+}
+
+.card-container.hidden {
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    animation: modalAppear 0.3s ease-out;
+}
+
+@keyframes modalAppear {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close-button {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+.modal-body {
+    margin-top: 10px;
+}
+
+.modal-body h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.modal-body p {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-body .pack-result {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.pack-illustration {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.pack-score {
+    flex-grow: 1;
+    font-size: 18px;
 }

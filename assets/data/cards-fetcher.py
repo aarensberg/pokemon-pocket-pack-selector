@@ -20,5 +20,16 @@ for card in game_data['data']['cards']:
 
 cards = sorted(cards, key=lambda x: (x["expansionId"], x["collectionNumber"]))
 
+offering_rates = json.load(open('assets/data/offering-rates.json'))
+
+for pack in set([pack for card in cards for pack in card['foundInPacks']]):
+    for card in cards:
+        if pack in card['foundInPacks']:
+            card[f"Drop Rate {pack.split(' ')[0]}"] = (99.95 * (
+                offering_rates[pack]['Regular pack']['1st to 3rd cards'][card['rarity']] * 3 +
+                offering_rates[pack]['Regular pack']['4th card'][card['rarity']] +
+                offering_rates[pack]['Regular pack']['5th card'][card['rarity']]
+            ) + 0.05 * (offering_rates[pack]['Rare pack'][card['rarity']] * 5)) / 100
+
 with open('assets/data/cards.json', 'w') as f:
     json.dump(cards, f, indent=4)
