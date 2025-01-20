@@ -9,24 +9,76 @@ document.addEventListener('DOMContentLoaded', async () => {
     const searchContainer = document.createElement('div');
     searchContainer.className = 'search-container';
     
-    const searchInput = document.createElement('input');
-    searchInput.type = 'text';
-    searchInput.className = 'search-input';
-    searchInput.placeholder = 'Search for a Pokémon...';
+    const nameSearchInput = document.createElement('input');
+    nameSearchInput.type = 'text';
+    nameSearchInput.className = 'search-input';
+    nameSearchInput.placeholder = 'Search by name...';
     
-    searchContainer.appendChild(searchInput);
+    const idSearchGroup = document.createElement('div');
+    idSearchGroup.className = 'id-search-group';
+    
+    const expansionSelect = document.createElement('select');
+    expansionSelect.className = 'expansion-select';
+    
+    // Ajout des options pour le select
+    const expansionOptions = [
+        { value: '', label: 'All expansions' },
+        { value: 'A1', label: 'Genetic Apex' },
+        { value: 'A1a', label: 'Mythical Island' },
+        { value: 'PROMO-A', label: 'Promo A' }
+    ];
+    
+    expansionOptions.forEach(opt => {
+        const option = document.createElement('option');
+        option.value = opt.value;
+        option.textContent = opt.label;
+        expansionSelect.appendChild(option);
+    });
+    
+    const numberInput = document.createElement('input');
+    numberInput.type = 'text';
+    numberInput.className = 'number-input';
+    numberInput.placeholder = 'Card #';
+    
+    // Ajout de la validation pour n'accepter que les chiffres
+    numberInput.addEventListener('input', (e) => {
+        e.target.value = e.target.value.replace(/\D/g, '');
+        filterCards();
+    });
+
+    numberInput.addEventListener('keypress', (e) => {
+        if (!/\d/.test(e.key)) {
+            e.preventDefault();
+        }
+    });
+
+    idSearchGroup.appendChild(expansionSelect);
+    idSearchGroup.appendChild(numberInput);
+    
+    searchContainer.appendChild(nameSearchInput);
+    searchContainer.appendChild(idSearchGroup);
     document.querySelector('.container').insertBefore(searchContainer, mainContainer);
 
-    // Fonction de recherche
-    function filterCards(searchTerm) {
-        const normalizedSearch = searchTerm.toLowerCase();
+    // Fonction de recherche mise à jour
+    function filterCards() {
+        const nameSearch = nameSearchInput.value.toLowerCase();
+        const selectedExpansion = expansionSelect.value.toLowerCase();
+        const numberSearch = numberInput.value.toLowerCase();
+
         document.querySelectorAll('.card-container').forEach(card => {
             const cardName = card.querySelector('.card-image').src
                 .split('-')
                 .slice(-2, -1)[0]
                 .toLowerCase();
             
-            if (cardName.includes(normalizedSearch)) {
+            const cardExpansion = card.querySelector('input').dataset.expansionId.toLowerCase();
+            const cardNumber = card.querySelector('input').dataset.cardNumber;
+            
+            const matchesName = cardName.includes(nameSearch);
+            const matchesExpansion = selectedExpansion === '' || cardExpansion === selectedExpansion;
+            const matchesNumber = numberSearch === '' || cardNumber.includes(numberSearch);
+            
+            if (matchesName && matchesExpansion && matchesNumber) {
                 card.classList.remove('hidden');
             } else {
                 card.classList.add('hidden');
@@ -34,10 +86,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
-    // Événement de recherche
-    searchInput.addEventListener('input', (e) => {
-        filterCards(e.target.value);
-    });
+    // Événements de recherche
+    nameSearchInput.addEventListener('input', filterCards);
+    expansionSelect.addEventListener('change', filterCards);
+    numberInput.addEventListener('input', filterCards);
 
     function createExpansionSection(expansionId) {
         const section = document.createElement('section');
