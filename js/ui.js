@@ -1,5 +1,43 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const mainContainer = document.getElementById('cards-grid');
+    
+    // Création de l'en-tête
+    const header = document.createElement('header');
+    header.className = 'page-header';
+    
+    const headerContent = document.createElement('div');
+    headerContent.className = 'header-content';
+    
+    const titleRow = document.createElement('div');
+    titleRow.className = 'title-row';
+    
+    const title = document.createElement('h1');
+    title.className = 'header-title';
+    title.textContent = 'Pokémon Pocket Pack Selector by ';
+    
+    const profilePic = document.createElement('img');
+    profilePic.src = 'assets/image/profile-picture.png';
+    profilePic.alt = 'Profile Picture';
+    profilePic.className = 'profile-picture';
+    
+    const authorName = document.createElement('span');
+    authorName.textContent = '@aarensberg';
+    
+    const githubLink = document.createElement('a');
+    githubLink.href = 'https://github.com/aarensberg/pokemon-pocket-pack-selector';
+    githubLink.className = 'github-link';
+    githubLink.textContent = 'See the GitHub repository';
+    githubLink.target = '_blank';
+    
+    title.appendChild(authorName);
+    titleRow.appendChild(title);
+    titleRow.appendChild(profilePic);
+    headerContent.appendChild(titleRow);
+    headerContent.appendChild(githubLink);
+    header.appendChild(headerContent);
+    
+    document.querySelector('.container').insertBefore(header, mainContainer);
+
     const calculateBtn = document.getElementById('calculate-btn');
     const resultsDiv = document.getElementById('results');
 
@@ -200,7 +238,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Organiser et afficher les cartes par extension
-    const expansions = ['A1', 'A1a', 'PROMO-A'];
+    const expansions = ['A1a', 'A1', 'PROMO-A'];
     const cardsByExpansion = {};
     
     // Grouper les cartes par extension

@@ -1,4 +1,4 @@
-# Pokémon Booster Selector
+# Pokémon Pocket Pack Selector
 
 A web application that calculates the score of each booster according to the cards you want.
 
@@ -32,7 +32,8 @@ pokemon-booster-selector/
 │ │ └── offering-rates.json
 │ ├── image/
 │ │ ├── cards-illustrations/
-│ │ └── expansions-logo/
+│ │ ├── expansions-logo/
+│ │ └── packs-illustrations/
 ├── css/
 │ └── style.css
 ├── js/

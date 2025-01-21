@@ -280,3 +280,56 @@
 .number-input:focus {
     box-shadow: 0 0 5px rgba(74, 175, 80, 0.5);
 }
+
+.page-header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background: white;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.github-link {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.github-link:hover {
+    color: #45a049;
+    text-decoration: underline;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
