@@ -61,9 +61,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Ajout des options pour le select
     const expansionOptions = [
         { value: '', label: 'All expansions' },
-        { value: 'A1', label: 'Genetic Apex' },
         { value: 'A1a', label: 'Mythical Island' },
-        { value: 'PROMO-A', label: 'Promo A' }
+        { value: 'A2', label: 'Space-Time Smackdown' }
     ];
     
     expansionOptions.forEach(opt => {
@@ -143,14 +142,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const title = document.createElement('h2');
         switch(expansionId) {
-            case 'A1':
-                title.textContent = 'Genetic Apex (A1) Card List';
-                break;
             case 'A1a':
                 title.textContent = 'Mythical Island (A1a) Card List';
                 break;
-            case 'PROMO-A':
-                title.textContent = 'Promo A Card List';
+            case 'A2':
+                title.textContent = 'Space-Time Smackdown (A2) Card List';
                 break;
             default:
                 title.textContent = `Expansion ${expansionId}`;
@@ -238,7 +234,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Organiser et afficher les cartes par extension
-    const expansions = ['A1a', 'A1', 'PROMO-A'];
+    const expansions = ['A1a', 'A2'];
     const cardsByExpansion = {};
     
     // Grouper les cartes par extension

@@ -1,5 +1,6 @@
 from requests import get
-import json
+from json import load, dump
+from os import rename
 
 game_data = get('https://www.pokemon-zone.com/api/game/game-data/').json()
 data = get('https://www.pokemon-zone.com/api/cards/search/data/').json()
@@ -20,7 +21,7 @@ for card in game_data['data']['cards']:
 
 cards = sorted(cards, key=lambda x: (x["expansionId"], x["collectionNumber"]))
 
-offering_rates = json.load(open('assets/data/offering-rates.json'))
+offering_rates = load(open('assets/data/offering-rates.json'))
 
 for pack in set([pack for card in cards for pack in card['foundInPacks']]):
     for card in cards:
@@ -31,5 +32,16 @@ for pack in set([pack for card in cards for pack in card['foundInPacks']]):
                 offering_rates[pack]['Regular pack']['5th card'][card['rarity']]
             ) + 0.05 * (offering_rates[pack]['Rare pack'][card['rarity']] * 5)) / 100
 
+rename('assets/data/cards.json', 'assets/data/cards-temp.json')
 with open('assets/data/cards.json', 'w') as f:
-    json.dump(cards, f, indent=4)
+    dump(cards, f, indent=4)
+
+print('Done!')
+
+expansions = set([card["expansionId"] for card in cards])
+packs = set([pack for card in cards for pack in card['foundInPacks']])
+
+print(f'{len(expansions)} expansions : {expansions}')
+print(f'{len(packs)} packs : {packs}')
+print(f'Cards : {len(cards)}')
+print('Data saved to assets/data/cards.json')
