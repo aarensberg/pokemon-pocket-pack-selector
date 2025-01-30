@@ -165,17 +165,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         selectAllBtn.className = 'select-all-btn';
         selectAllBtn.textContent = 'Select all';
         selectAllBtn.addEventListener('click', () => {
-            const checkboxes = section.querySelectorAll('.card-checkbox');
-            const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+            const cards = section.querySelectorAll('.card-container');
+            const allSelected = Array.from(cards).every(card => card.classList.contains('selected'));
             
-            checkboxes.forEach(checkbox => {
-                checkbox.checked = !allChecked;
-                // Déclencher l'événement change manuellement
-                const event = new Event('change');
-                checkbox.dispatchEvent(event);
+            cards.forEach(card => {
+                const cardId = card.dataset.cardId;
+                if (allSelected) {
+                    app.selectedCards.delete(cardId);
+                    card.classList.remove('selected');
+                } else {
+                    app.selectedCards.add(cardId);
+                    card.classList.add('selected');
+                }
             });
             
-            selectAllBtn.textContent = allChecked ? 'Select all' : 'Unselect all';
+            selectAllBtn.textContent = allSelected ? 'Select all' : 'Unselect all';
         });
         
         headerLeft.appendChild(logo);
@@ -195,6 +199,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const cardContainer = document.createElement('div');
         cardContainer.className = 'card-container';
         cardContainer.dataset.name = card.name.toLowerCase();
+        cardContainer.dataset.cardId = `${card.expansionId}-${card.collectionNumber}`;
 
         const numberLabel = document.createElement('div');
         numberLabel.className = 'card-number';
@@ -204,22 +209,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         img.src = `assets/image/cards-illustrations/${card.expansionId}-${card.collectionNumber}-${card.name}-${card.rarity}.png`;
         img.className = 'card-image';
 
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.className = 'card-checkbox';
-        checkbox.dataset.cardNumber = card.collectionNumber;
-        checkbox.dataset.expansionId = card.expansionId;
-        checkbox.addEventListener('change', (e) => {
-            if (e.target.checked) {
-                app.selectedCards.add(`${card.expansionId}-${card.collectionNumber}`);
-            } else {
-                app.selectedCards.delete(`${card.expansionId}-${card.collectionNumber}`);
-            }
-        });
-
         cardContainer.appendChild(numberLabel);
         cardContainer.appendChild(img);
-        cardContainer.appendChild(checkbox);
+
+        // Gestion de la sélection au clic
+        cardContainer.addEventListener('click', () => {
+            const cardId = cardContainer.dataset.cardId;
+            if (app.selectedCards.has(cardId)) {
+                app.selectedCards.delete(cardId);
+                cardContainer.classList.remove('selected');
+            } else {
+                app.selectedCards.add(cardId);
+                cardContainer.classList.add('selected');
+            }
+        });
 
         return cardContainer;
     }
