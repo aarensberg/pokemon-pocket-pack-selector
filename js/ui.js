@@ -38,6 +38,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     document.querySelector('.container').insertBefore(header, mainContainer);
 
+    // Ajout de la navigation des extensions
+    const expansionsNav = document.createElement('nav');
+    expansionsNav.className = 'expansions-nav';
+    
+    const expansionLinks = [
+        { id: 'A2', name: 'Space-Time Smackdown' },
+        { id: 'A1a', name: 'Mythical Island' },
+        { id: 'A1', name: 'Genetic Apex' }
+    ];
+    
+    expansionLinks.forEach(exp => {
+        const link = document.createElement('a');
+        link.href = `#expansion-${exp.id}`;
+        link.className = 'expansion-link';
+        link.dataset.expansion = exp.id;
+        link.textContent = exp.name;
+        expansionsNav.appendChild(link);
+    });
+    
+    document.querySelector('.container').insertBefore(expansionsNav, mainContainer);
+
     const calculateBtn = document.getElementById('calculate-btn');
     const resultsDiv = document.getElementById('results');
 
@@ -132,6 +153,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     function createExpansionSection(expansionId) {
         const section = document.createElement('section');
         section.className = 'expansion-section';
+        section.id = `expansion-${expansionId}`; // Ajout de l'ID pour le lien d'ancrage
         
         const header = document.createElement('div');
         header.className = 'expansion-header';
@@ -226,6 +248,55 @@ document.addEventListener('DOMContentLoaded', async () => {
         tooltip.style.top = `${y}px`;
     }
 
+    function getRarityColor(rarity) {
+        const colors = {
+            'C': '#ffffff',    // Blanc
+            'U': '#55ff55',    // Vert
+            'R': '#5555ff',    // Bleu
+            'RR': '#aa00aa',   // Violet
+            'AR': '#fa8bfd',   // Rose
+            'SR': '#ff5555',   // Rouge
+            'SAR': '#ff5555',   // Rouge
+            'IM': '#4c4d4c',   // Noir
+            'UR': '#ffaa00'    // Doré
+        };
+        return colors[rarity] || 'white';
+    }
+
+    function getDustColor(cost) {
+        switch(cost) {
+            case 35: return '#c0c0c0';    // Gris clair
+            case 70: return '#89cff0';    // Bleu clair
+            case 150: return '#4169e1';   // Bleu royal
+            case 400: return '#800080';   // Violet
+            case 500: return '#9400d3';   // Violet foncé
+            case 1250: return '#ffd700';  // Or
+            case 1500: return '#ffa500';  // Orange
+            case 2500: return '#ff4500';  // Rouge-orange
+            default: return '#ffffff';     // Blanc par défaut
+        }
+    }
+
+    function getExpansionColor(expansionId) {
+        return {
+            'A1': '#8431d1',
+            'A1a': '#49dcb1',
+            'A2': '#a4afbd'
+        }[expansionId] || 'white';
+    }
+
+    function getPackColor(packName) {
+        const colors = {
+            'Charizard': '#f84b04',
+            'Mewtwo': '#957eff',
+            'Pikachu': '#febe01',
+            'Mew': '#ffbadc',
+            'Dialga': '#3739e2',
+            'Palkia': '#d03ae4'
+        };
+        return colors[packName] || 'white';
+    }
+
     function createCardElement(card) {
         const cardContainer = document.createElement('div');
         cardContainer.className = 'card-container';
@@ -260,34 +331,43 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="tooltip-title">${card.name}</div>
                 <div class="tooltip-info">
                     <span class="tooltip-label">Rarity</span>
-                    <span>${card.rarity}</span>
+                    <span style="color: ${getRarityColor(card.rarity)}">${card.rarity}</span>
                 </div>
                 <div class="tooltip-info">
                     <span class="tooltip-label">Number</span>
-                    <span>#${card.collectionNumber}</span>
+                    <span style="color: #ffd700">#${card.collectionNumber}</span>
                 </div>
                 <div class="tooltip-info">
                     <span class="tooltip-label">Dust Cost</span>
-                    <span>${card.dustCost}</span>
+                    <span style="color: ${getDustColor(card.dustCost)}">${card.dustCost}</span>
                 </div>
                 <div class="tooltip-info">
                     <span class="tooltip-label">Expansion</span>
-                    <span>${card.expansionId}</span>
+                    <span style="color: ${getExpansionColor(card.expansionId)}">${card.expansionId}</span>
                 </div>
                 <div class="tooltip-section">
                     <div class="tooltip-label">Found in packs :</div>
-                    <div>${card.foundInPacks.join(', ')}</div>
+                    <div>${card.foundInPacks
+                        .map(pack => {
+                            const packName = pack.replace(' Pack', '');
+                            return `<span style="color: ${getPackColor(packName)}">${packName}</span>`;
+                        })
+                        .join(', ')}
+                    </div>
                 </div>
                 <div class="tooltip-section">
                     <div class="tooltip-label">Drop Rates :</div>
                     ${Object.entries(card)
                         .filter(([key]) => key.startsWith('Drop Rate'))
-                        .map(([key, value]) => `
-                            <div class="tooltip-info">
-                                <span>${key.split('Drop Rate ')[1]} :</span>
-                                <span>${Number(value).toFixed(3)}%</span>
-                            </div>
-                        `).join('')}
+                        .map(([key, value]) => {
+                            const packName = key.split('Drop Rate ')[1];
+                            return `
+                                <div class="tooltip-info">
+                                    <span style="color: ${getPackColor(packName)}">${packName} :</span>
+                                    <span style="color: ${getPackColor(packName)}">${Number(value).toFixed(3)}%</span>
+                                </div>
+                            `;
+                        }).join('')}
                 </div>
             `;
             tooltip.classList.add('visible');
@@ -339,7 +419,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Organiser et afficher les cartes par extension
-    const expansions = ['A1', 'A1a', 'A2'];
+    const expansions = ['A2', 'A1a', 'A1'];
     const cardsByExpansion = {};
     
     // Grouper les cartes par extension

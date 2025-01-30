@@ -101,18 +101,13 @@
     font-size: 16px;
 }
 
-.expansion-section {
-    margin-bottom: 50px;
-    width: 100%;
-}
-
 .expansion-header {
     display: flex;
     align-items: center;
     gap: 20px;
     margin: 20px 0;
     padding-bottom: 10px;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid black;
     justify-content: space-between;
 }
 
@@ -151,14 +146,10 @@
     max-width: 500px;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #4CAF50;
+    border: 2px solid black;
     border-radius: 25px;
     outline: none;
     margin: 0;
-}
-
-.search-input:focus {
-    box-shadow: 0 0 5px rgba(74, 175, 80, 0.5);
 }
 
 .id-search-input {
@@ -166,14 +157,10 @@
     max-width: 200px;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #4CAF50;
+    border: 2px solid black;
     border-radius: 25px;
     outline: none;
     display: block;
-}
-
-.id-search-input:focus {
-    box-shadow: 0 0 5px rgba(74, 175, 80, 0.5);
 }
 
 .card-container.hidden {
@@ -276,7 +263,7 @@
 .expansion-select {
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #4CAF50;
+    border: 2px solid black;
     border-radius: 25px;
     outline: none;
     background-color: white;
@@ -285,21 +272,13 @@
     min-width: 150px;
 }
 
-.expansion-select:focus {
-    box-shadow: 0 0 5px rgba(74, 175, 80, 0.5);
-}
-
 .number-input {
     width: 100px;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #4CAF50;
+    border: 2px solid black;
     border-radius: 25px;
     outline: none;
-}
-
-.number-input:focus {
-    box-shadow: 0 0 5px rgba(74, 175, 80, 0.5);
 }
 
 .page-header {
@@ -307,7 +286,7 @@
     padding: 20px;
     margin-bottom: 30px;
     background: white;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid black;
 }
 
 .header-content {
@@ -326,7 +305,7 @@
 .github-link {
     color: blue;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 21px;
     transition: color 0.3s ease;
 }
 
@@ -343,7 +322,7 @@
 }
 
 .header-title {
-    font-size: 24px;
+    font-size: 36px;
     color: #333;
     margin: 0;
 }
@@ -356,8 +335,8 @@
 }
 
 .select-all-btn {
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 12px 24px;
+    font-size: 16px;
     background: #4CAF50;
     color: white;
     border: none;
@@ -395,7 +374,7 @@
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #4CAF50;
+    color: gold;
 }
 
 .tooltip-info {
@@ -405,7 +384,7 @@
 }
 
 .tooltip-label {
-    color: #90EE90;
+    color: white;
     margin-right: 10px;
 }
 
@@ -418,4 +397,43 @@
 /* Assurer que tous les éléments utilisent le même modèle de boîte */
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+.expansions-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.expansion-link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.expansion-link[data-expansion="A2"] {
+    color: #a4afbd;
+    border: 2px solid #a4afbd;
+}
+
+.expansion-link[data-expansion="A1a"] {
+    color: #49dcb1;
+    border: 2px solid #49dcb1;
+}
+
+.expansion-link[data-expansion="A1"] {
+    color: #8431d1;
+    border: 2px solid #8431d1;
+}
+
+.expansion-link:hover {
+    background-color: currentColor;
+    color: white;
 }
