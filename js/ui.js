@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     expansionsNav.className = 'expansions-nav';
     
     const expansionLinks = [
-        { id: 'A2', name: 'Space-Time Smackdown' },
+        { id: 'A1', name: 'Genetic Apex' },
         { id: 'A1a', name: 'Mythical Island' },
-        { id: 'A1', name: 'Genetic Apex' }
+        { id: 'A2', name: 'Space-Time Smackdown' }
     ];
     
     expansionLinks.forEach(exp => {
@@ -57,8 +57,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         expansionsNav.appendChild(link);
     });
     
-    document.querySelector('.container').insertBefore(expansionsNav, mainContainer);
-
     const calculateBtn = document.getElementById('calculate-btn');
     const resultsDiv = document.getElementById('results');
 
@@ -116,7 +114,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     searchContainer.appendChild(nameSearchInput);
     searchContainer.appendChild(idSearchGroup);
-    document.querySelector('.container').insertBefore(searchContainer, mainContainer);
+
+    // Créer un conteneur pour les éléments de navigation
+    const stickyNavContainer = document.createElement('div');
+    stickyNavContainer.className = 'sticky-nav-container';
+
+    // Déplacer les éléments de navigation dans le conteneur
+    document.querySelector('.container').insertBefore(stickyNavContainer, mainContainer);
+    stickyNavContainer.appendChild(expansionsNav);
+    stickyNavContainer.appendChild(searchContainer);
 
     // Fonction de recherche mise à jour
     function filterCards() {
@@ -169,19 +175,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         logo.alt = `Logo ${expansionId}`;
         
         const title = document.createElement('h2');
-        switch(expansionId) {
-            case 'A1':
-                title.textContent = 'Genetic Apex (A1) Card List';
-                break;
-            case 'A1a':
-                title.textContent = 'Mythical Island (A1a) Card List';
-                break;
-            case 'A2':
-                title.textContent = 'Space-Time Smackdown (A2) Card List';
-                break;
-            default:
-                title.textContent = `Expansion ${expansionId}`;
-        }
+        title.textContent = `${getExpansionName(expansionId)} Card List`;
         
         const selectAllBtn = document.createElement('button');
         selectAllBtn.className = 'select-all-btn';
@@ -248,21 +242,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         tooltip.style.top = `${y}px`;
     }
 
-    function getRarityColor(rarity) {
-        const colors = {
-            'C': '#ffffff',    // Blanc
-            'U': '#55ff55',    // Vert
-            'R': '#5555ff',    // Bleu
-            'RR': '#aa00aa',   // Violet
-            'AR': '#fa8bfd',   // Rose
-            'SR': '#ff5555',   // Rouge
-            'SAR': '#ff5555',   // Rouge
-            'IM': '#4c4d4c',   // Noir
-            'UR': '#ffaa00'    // Doré
-        };
-        return colors[rarity] || 'white';
-    }
-
     function getDustColor(cost) {
         switch(cost) {
             case 35: return '#c0c0c0';    // Gris clair
@@ -273,7 +252,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             case 1250: return '#ffd700';  // Or
             case 1500: return '#ffa500';  // Orange
             case 2500: return '#ff4500';  // Rouge-orange
-            default: return '#ffffff';     // Blanc par défaut
+            default: return '#ffffff';    // Blanc par défaut
         }
     }
 
@@ -295,6 +274,30 @@ document.addEventListener('DOMContentLoaded', async () => {
             'Palkia': '#d03ae4'
         };
         return colors[packName] || 'white';
+    }
+
+    function getExpansionName(expansionId) {
+        const names = {
+            'A1': 'Genetic Apex',
+            'A1a': 'Mythical Island',
+            'A2': 'Space-Time Smackdown'
+        };
+        return names[expansionId] || expansionId;
+    }
+
+    function getRaritySymbol(rarity) {
+        const symbolMap = {
+            'C': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">',
+            'U': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(2),
+            'R': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(3),
+            'RR': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(4),
+            'AR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">',
+            'SR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2),
+            'SAR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2),
+            'IM': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(3),
+            'UR': '<img src="assets/image/rarity-icons/gold-crown.png" class="rarity-icon" alt="♛">'
+        };
+        return symbolMap[rarity] || rarity;
     }
 
     function createCardElement(card) {
@@ -331,7 +334,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="tooltip-title">${card.name}</div>
                 <div class="tooltip-info">
                     <span class="tooltip-label">Rarity</span>
-                    <span style="color: ${getRarityColor(card.rarity)}">${card.rarity}</span>
+                    <span>${getRaritySymbol(card.rarity)}</span>
                 </div>
                 <div class="tooltip-info">
                     <span class="tooltip-label">Number</span>
@@ -343,17 +346,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
                 <div class="tooltip-info">
                     <span class="tooltip-label">Expansion</span>
-                    <span style="color: ${getExpansionColor(card.expansionId)}">${card.expansionId}</span>
-                </div>
-                <div class="tooltip-section">
-                    <div class="tooltip-label">Found in packs :</div>
-                    <div>${card.foundInPacks
-                        .map(pack => {
-                            const packName = pack.replace(' Pack', '');
-                            return `<span style="color: ${getPackColor(packName)}">${packName}</span>`;
-                        })
-                        .join(', ')}
-                    </div>
+                    <span style="color: ${getExpansionColor(card.expansionId)}">${getExpansionName(card.expansionId)}</span>
                 </div>
                 <div class="tooltip-section">
                     <div class="tooltip-label">Drop Rates :</div>
@@ -363,8 +356,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                             const packName = key.split('Drop Rate ')[1];
                             return `
                                 <div class="tooltip-info">
-                                    <span style="color: ${getPackColor(packName)}">${packName} :</span>
-                                    <span style="color: ${getPackColor(packName)}">${Number(value).toFixed(3)}%</span>
+                                    <span class="tooltip-label" style="color: ${getPackColor(packName)}">${packName}</span>
+                                    <span ${getPackColor(packName)}">${Number(value).toFixed(3)}%</span>
                                 </div>
                             `;
                         }).join('')}
@@ -381,41 +374,256 @@ document.addEventListener('DOMContentLoaded', async () => {
         return cardContainer;
     }
 
-    const modal = document.getElementById('resultsModal');
-    const modalBody = modal.querySelector('.modal-body');
-    const closeButton = modal.querySelector('.close-button');
+    function calculateCollectionStats() {
+        const stats = {};
+        
+        // Initialisation des stats par extension
+        expansions.forEach(exp => {
+            stats[exp] = {
+                total: 0,
+                selected: 0,
+                byRarity: {}
+            };
+        });
 
-    function displayResults(rates) {
-        modalBody.innerHTML = '<h2>Score composite de chaque booster :</h2>';
-        
-        for (const [booster, rate] of Object.entries(rates)) {
-            modalBody.innerHTML += `
-                <div class="pack-result">
-                    <img 
-                        src="assets/image/packs-illustrations/${booster}.webp" 
-                        alt="${booster} Pack"
-                        class="pack-illustration"
-                    >
-                    <div class="pack-score">
-                        ${booster}: ${rate.toFixed(3)}
-                    </div>
-                </div>
-            `;
-        }
-        
-        modal.style.display = 'flex';
+        // Calcul des statistiques
+        app.cards.forEach(card => {
+            const expStats = stats[card.expansionId];
+            expStats.total++;
+            
+            // Stats par rareté
+            if (!expStats.byRarity[card.rarity]) {
+                expStats.byRarity[card.rarity] = { total: 0, selected: 0 };
+            }
+            expStats.byRarity[card.rarity].total++;
+            
+            // Vérification si la carte est sélectionnée
+            if (app.selectedCards.has(`${card.expansionId}-${card.collectionNumber}`)) {
+                expStats.selected++;
+                expStats.byRarity[card.rarity].selected++;
+            }
+        });
+
+        return stats;
     }
 
-    // Fermeture du modal
-    closeButton.addEventListener('click', () => {
-        modal.style.display = 'none';
-    });
+    function displayResults(rates) {
+        const stats = calculateCollectionStats();
+        
+        const resultsHTML = `
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Collection Results</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 20px;
+                        background: #f5f5f5;
+                        min-height: 100vh;
+                    }
+                    .results-container {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 30px;
+                        max-width: 2000px;
+                        margin: 0 auto;
+                    }
+                    .stats-column, .scores-column {
+                        background: white;
+                        padding: 30px;
+                        border-radius: 15px;
+                        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                    }
+                    .stats-section {
+                        background: #f8f8f8;
+                        padding: 20px;
+                        margin-bottom: 20px;
+                        border-radius: 8px;
+                    }
+                    .rarity-stats {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                        gap: 15px;
+                        margin-top: 15px;
+                    }
+                    .rarity-stat {
+                        padding: 10px;
+                        background: white;
+                        border-radius: 6px;
+                        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                    }
+                    .pack-results {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                        gap: 20px;
+                    }
+                    .pack-result {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        background: #f8f8f8;
+                        padding: 20px;
+                        border-radius: 8px;
+                    }
+                    .pack-illustration {
+                        width: 60px;
+                        height: 60px;
+                        object-fit: contain;
+                    }
+                    .pack-score {
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                    h1 {
+                        color: #333;
+                        margin-top: 0;
+                        margin-bottom: 30px;
+                        padding-bottom: 15px;
+                        border-bottom: 2px solid #eee;
+                    }
+                    h2 {
+                        color: #444;
+                        margin-bottom: 20px;
+                    }
+                    p {
+                        margin: 10px 0;
+                        color: #666;
+                    }
+                    .progress-container {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        margin: 8px 0;
+                    }
 
-    // Fermeture en cliquant en dehors du modal
-    window.addEventListener('click', (event) => {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
+                    .progress-bar {
+                        flex-grow: 1;
+                        height: 12px;
+                        background: #eee;
+                        border-radius: 6px;
+                        overflow: hidden;
+                        position: relative;
+                    }
+
+                    .progress-fill {
+                        height: 100%;
+                        width: 0;
+                        transition: width 0.5s ease;
+                    }
+
+                    .progress-text {
+                        font-size: 14px;
+                        min-width: 90px;
+                        text-align: right;
+                    }
+
+                    .rarity-stats {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        margin-top: 15px;
+                    }
+
+                    .rarity-label {
+                        min-width: 100px; /* Augmenté pour accommoder les icônes */
+                        font-weight: bold;
+                        padding: 4px 8px;
+                        border-radius: 4px;
+                        display: inline-block;
+                        text-align: center;
+                        background: rgba(0, 0, 0, 0.1);
+                        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+                    }
+
+                    .rarity-icon {
+                        width: 16px;
+                        height: 16px;
+                        vertical-align: middle;
+                        margin: 0 1px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="results-container">
+                    <div class="stats-column">
+                        <h1>Collection Statistics</h1>
+                        ${Object.entries(stats).map(([expId, expStats]) => `
+                            <div class="stats-section">
+                                <h2 style="color: ${getExpansionColor(expId)}">${getExpansionName(expId)}</h2>
+                                <div class="progress-container">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="
+                                            width: ${(expStats.selected/expStats.total)*100}%;
+                                            background: ${getExpansionColor(expId)};
+                                        "></div>
+                                    </div>
+                                    <span class="progress-text">
+                                        ${((expStats.selected/expStats.total)*100).toFixed(1)}%
+                                    </span>
+                                </div>
+                                <div class="rarity-stats">
+                                    ${Object.entries(expStats.byRarity).map(([rarity, rarityStats]) => `
+                                        <div class="progress-container">
+                                            <span class="rarity-label">
+                                                ${getRaritySymbol(rarity)}
+                                            </span>
+                                            <div class="progress-bar">
+                                                <div class="progress-fill" style="
+                                                    width: ${(rarityStats.selected/rarityStats.total)*100}%;
+                                                    background: #4CAF50;
+                                                "></div>
+                                            </div>
+                                            <span class="progress-text">
+                                                ${((rarityStats.selected/rarityStats.total)*100).toFixed(1)}%
+                                            </span>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    
+                    <div class="scores-column">
+                        <h1>Booster Scores</h1>
+                        <div class="pack-results">
+                            ${Object.entries(rates).map(([booster, rate]) => `
+                                <div class="pack-result">
+                                    <img 
+                                        src="assets/image/packs-illustrations/${booster}.webp" 
+                                        alt="${booster} Pack"
+                                        class="pack-illustration"
+                                    >
+                                    <div class="pack-score" style="color: ${getPackColor(booster)}">
+                                        ${booster}: ${rate.toFixed(3)}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    // Animation des barres de progression
+                    setTimeout(() => {
+                        document.querySelectorAll('.progress-fill').forEach(bar => {
+                            bar.style.transition = 'width 1s ease';
+                        });
+                    }, 100);
+                </script>
+            </body>
+            </html>
+        `;
+        
+        const resultsWindow = window.open('', 'Collection Results', 'width=1400,height=800');
+        resultsWindow.document.write(resultsHTML);
+        resultsWindow.document.close();
+    }
+
+    // Supprimer les éléments liés au modal qui ne sont plus nécessaires
+    calculateBtn.addEventListener('click', () => {
+        const rates = app.calculateBoosterRates();
+        displayResults(rates);
     });
 
     // Organiser et afficher les cartes par extension
