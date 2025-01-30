@@ -20,7 +20,7 @@ class PokemonCardSelector {
                 };
 
                 // Mise à jour pour n'inclure que les boosters actifs
-                const boosters = ['Mew', 'Dialga', 'Palkia'];
+                const boosters = ['Charizard', 'Mewtwo', 'Pikachu', 'Mew', 'Dialga', 'Palkia'];
                 boosters.forEach(booster => {
                     const dropRateKey = `Drop Rate ${booster}`;
                     if (card[dropRateKey]) {
@@ -33,7 +33,7 @@ class PokemonCardSelector {
 
             // Filtrer pour ne garder que les cartes des expansions actives
             this.cards = this.cards.filter(card => 
-                ['A1a', 'A2'].includes(card.expansionId)
+                ['A1', 'A1a', 'A2'].includes(card.expansionId)
             );
 
             return this.cards;

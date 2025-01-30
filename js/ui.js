@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Ajout des options pour le select
     const expansionOptions = [
         { value: '', label: 'All expansions' },
+        { value: 'A1', label: 'Genetic Apex' },
         { value: 'A1a', label: 'Mythical Island' },
         { value: 'A2', label: 'Space-Time Smackdown' }
     ];
@@ -135,6 +136,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         const header = document.createElement('div');
         header.className = 'expansion-header';
         
+        const headerLeft = document.createElement('div');
+        headerLeft.style.display = 'flex';
+        headerLeft.style.alignItems = 'center';
+        headerLeft.style.gap = '20px';
+        
         const logo = document.createElement('img');
         logo.src = `assets/image/expansions-logo/${expansionId}.webp`;
         logo.className = 'expansion-logo';
@@ -142,6 +148,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const title = document.createElement('h2');
         switch(expansionId) {
+            case 'A1':
+                title.textContent = 'Genetic Apex (A1) Card List';
+                break;
             case 'A1a':
                 title.textContent = 'Mythical Island (A1a) Card List';
                 break;
@@ -152,8 +161,27 @@ document.addEventListener('DOMContentLoaded', async () => {
                 title.textContent = `Expansion ${expansionId}`;
         }
         
-        header.appendChild(logo);
-        header.appendChild(title);
+        const selectAllBtn = document.createElement('button');
+        selectAllBtn.className = 'select-all-btn';
+        selectAllBtn.textContent = 'Select all';
+        selectAllBtn.addEventListener('click', () => {
+            const checkboxes = section.querySelectorAll('.card-checkbox');
+            const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+            
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = !allChecked;
+                // Déclencher l'événement change manuellement
+                const event = new Event('change');
+                checkbox.dispatchEvent(event);
+            });
+            
+            selectAllBtn.textContent = allChecked ? 'Select all' : 'Unselect all';
+        });
+        
+        headerLeft.appendChild(logo);
+        headerLeft.appendChild(title);
+        header.appendChild(headerLeft);
+        header.appendChild(selectAllBtn);
         section.appendChild(header);
         
         const grid = document.createElement('div');
@@ -234,7 +262,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Organiser et afficher les cartes par extension
-    const expansions = ['A1a', 'A2'];
+    const expansions = ['A1', 'A1a', 'A2'];
     const cardsByExpansion = {};
     
     // Grouper les cartes par extension
