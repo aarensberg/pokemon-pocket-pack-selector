@@ -49,6 +49,7 @@
     height: 200px;
     object-fit: contain;
     margin: 10px 0;
+    position: relative;
 }
 
 .card-number {
@@ -368,4 +369,48 @@
 
 .select-all-btn:hover {
     background: #45a049;
+}
+
+.card-tooltip {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    max-width: 300px;
+    z-index: 1000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.2s;
+    transform: translateY(10px);
+}
+
+.card-tooltip.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tooltip-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.tooltip-info {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tooltip-label {
+    color: #90EE90;
+    margin-right: 10px;
+}
+
+.tooltip-section {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
 }

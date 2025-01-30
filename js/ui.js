@@ -195,6 +195,37 @@ document.addEventListener('DOMContentLoaded', async () => {
         return section;
     }
 
+    // Ajout du conteneur de tooltip au body
+    const tooltip = document.createElement('div');
+    tooltip.className = 'card-tooltip';
+    document.body.appendChild(tooltip);
+
+    function positionTooltip(e, img) {
+        const padding = 15;
+        const tooltipWidth = tooltip.offsetWidth;
+        const tooltipHeight = tooltip.offsetHeight;
+        const imgRect = img.getBoundingClientRect();
+        
+        // Position le tooltip au-dessus de la carte
+        let x = imgRect.left + (imgRect.width / 2) - (tooltipWidth / 2);
+        let y = imgRect.top - tooltipHeight - padding;
+        
+        // Si le tooltip dépasse en haut, le positionner en dessous de la carte
+        if (y < 0) {
+            y = imgRect.bottom + padding;
+        }
+        
+        // Si le tooltip dépasse à gauche ou à droite, le recentrer horizontalement
+        if (x < padding) {
+            x = padding;
+        } else if (x + tooltipWidth > window.innerWidth - padding) {
+            x = window.innerWidth - tooltipWidth - padding;
+        }
+        
+        tooltip.style.left = `${x}px`;
+        tooltip.style.top = `${y}px`;
+    }
+
     function createCardElement(card) {
         const cardContainer = document.createElement('div');
         cardContainer.className = 'card-container';
@@ -222,6 +253,49 @@ document.addEventListener('DOMContentLoaded', async () => {
                 app.selectedCards.add(cardId);
                 cardContainer.classList.add('selected');
             }
+        });
+
+        img.addEventListener('mouseenter', (e) => {
+            tooltip.innerHTML = `
+                <div class="tooltip-title">${card.name}</div>
+                <div class="tooltip-info">
+                    <span class="tooltip-label">Rarity</span>
+                    <span>${card.rarity}</span>
+                </div>
+                <div class="tooltip-info">
+                    <span class="tooltip-label">Number</span>
+                    <span>#${card.collectionNumber}</span>
+                </div>
+                <div class="tooltip-info">
+                    <span class="tooltip-label">Dust Cost</span>
+                    <span>${card.dustCost}</span>
+                </div>
+                <div class="tooltip-info">
+                    <span class="tooltip-label">Expansion</span>
+                    <span>${card.expansionId}</span>
+                </div>
+                <div class="tooltip-section">
+                    <div class="tooltip-label">Found in packs :</div>
+                    <div>${card.foundInPacks.join(', ')}</div>
+                </div>
+                <div class="tooltip-section">
+                    <div class="tooltip-label">Drop Rates :</div>
+                    ${Object.entries(card)
+                        .filter(([key]) => key.startsWith('Drop Rate'))
+                        .map(([key, value]) => `
+                            <div class="tooltip-info">
+                                <span>${key.split('Drop Rate ')[1]} :</span>
+                                <span>${Number(value).toFixed(3)}%</span>
+                            </div>
+                        `).join('')}
+                </div>
+            `;
+            tooltip.classList.add('visible');
+            positionTooltip(e, img);
+        });
+
+        img.addEventListener('mouseleave', () => {
+            tooltip.classList.remove('visible');
         });
 
         return cardContainer;
