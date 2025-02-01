@@ -1,175 +1,229 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const mainContainer = document.getElementById('cards-grid');
-    
-    // Création de l'en-tête
-    const header = document.createElement('header');
-    header.className = 'page-header';
-    
-    const headerContent = document.createElement('div');
-    headerContent.className = 'header-content';
-    
-    const titleRow = document.createElement('div');
-    titleRow.className = 'title-row';
-    
-    const title = document.createElement('h1');
-    title.className = 'header-title';
-    title.textContent = 'Pokémon Pocket Pack Selector by ';
-    
-    const profilePic = document.createElement('img');
-    profilePic.src = 'assets/image/profile-picture.png';
-    profilePic.alt = 'Profile Picture';
-    profilePic.className = 'profile-picture';
-    
-    const authorName = document.createElement('span');
-    authorName.textContent = '@aarensberg';
-    
-    const githubLink = document.createElement('a');
-    githubLink.href = 'https://github.com/aarensberg/pokemon-pocket-pack-selector';
-    githubLink.className = 'github-link';
-    githubLink.textContent = 'See the GitHub repository';
-    githubLink.target = '_blank';
-    
-    title.appendChild(authorName);
-    titleRow.appendChild(title);
-    titleRow.appendChild(profilePic);
-    headerContent.appendChild(titleRow);
-    headerContent.appendChild(githubLink);
-    header.appendChild(headerContent);
-    
-    document.querySelector('.container').insertBefore(header, mainContainer);
-
-    // Ajout de la navigation des extensions
-    const expansionsNav = document.createElement('nav');
-    expansionsNav.className = 'expansions-nav';
-    
-    const expansionLinks = [
-        { id: 'A2', name: 'Space-Time Smackdown' },
-        { id: 'A1a', name: 'Mythical Island' },
-        { id: 'A1', name: 'Genetic Apex' }
-    ];
-    
-    expansionLinks.forEach(exp => {
-        const link = document.createElement('a');
-        link.href = `#expansion-${exp.id}`;
-        link.className = 'expansion-link';
-        link.dataset.expansion = exp.id;
-        link.textContent = exp.name;
-        expansionsNav.appendChild(link);
-    });
-    
-    const calculateBtn = document.getElementById('calculate-btn');
-    const resultsDiv = document.getElementById('results');
-
     await app.initialize();
 
-    // Ajout de la barre de recherche
-    const searchContainer = document.createElement('div');
-    searchContainer.className = 'search-container';
+    // ====== FONCTIONS UTILITAIRES ======
     
-    const nameSearchInput = document.createElement('input');
-    nameSearchInput.type = 'text';
-    nameSearchInput.className = 'search-input';
-    nameSearchInput.placeholder = 'Search by name...';
-    
-    const idSearchGroup = document.createElement('div');
-    idSearchGroup.className = 'id-search-group';
-    
-    const expansionSelect = document.createElement('select');
-    expansionSelect.className = 'expansion-select';
-    
-    // Ajout des options pour le select
-    const expansionOptions = [
-        { value: '', label: 'All expansions' },
-        { value: 'A1', label: 'Genetic Apex' },
-        { value: 'A1a', label: 'Mythical Island' },
-        { value: 'A2', label: 'Space-Time Smackdown' }
-    ];
-    
-    expansionOptions.forEach(opt => {
-        const option = document.createElement('option');
-        option.value = opt.value;
-        option.textContent = opt.label;
-        expansionSelect.appendChild(option);
-    });
-    
-    const numberInput = document.createElement('input');
-    numberInput.type = 'text';
-    numberInput.className = 'number-input';
-    numberInput.placeholder = 'Card #';
-    
-    // Ajout de la validation pour n'accepter que les chiffres
-    numberInput.addEventListener('input', (e) => {
-        e.target.value = e.target.value.replace(/\D/g, '');
-        filterCards();
-    });
-
-    numberInput.addEventListener('keypress', (e) => {
-        if (!/\d/.test(e.key)) {
-            e.preventDefault();
+    // Obtention des couleurs
+    function getDustColor(cost) {
+        switch(cost) {
+            case 35: return '#c0c0c0';    // Gris clair
+            case 70: return '#89cff0';    // Bleu clair
+            case 150: return '#4169e1';   // Bleu royal
+            case 400: return '#800080';   // Violet
+            case 500: return '#9400d3';   // Violet foncé
+            case 1250: return '#ffd700';  // Or
+            case 1500: return '#ffa500';  // Orange
+            case 2500: return '#ff4500';  // Rouge-orange
+            default: return '#ffffff';    // Blanc par défaut
         }
-    });
-
-    idSearchGroup.appendChild(expansionSelect);
-    idSearchGroup.appendChild(numberInput);
-    
-    searchContainer.appendChild(nameSearchInput);
-    searchContainer.appendChild(idSearchGroup);
-
-    // Créer un conteneur pour les éléments de navigation
-    const stickyNavContainer = document.createElement('div');
-    stickyNavContainer.className = 'sticky-nav-container';
-
-    // Déplacer les éléments de navigation dans le conteneur
-    document.querySelector('.container').insertBefore(stickyNavContainer, mainContainer);
-    stickyNavContainer.appendChild(expansionsNav);
-    stickyNavContainer.appendChild(searchContainer);
-
-    // Fonction de recherche mise à jour
-    function filterCards() {
-        const nameSearch = nameSearchInput.value.toLowerCase();
-        const selectedExpansion = expansionSelect.value.toLowerCase();
-        const numberSearch = numberInput.value.toLowerCase();
-
-        // Gestion de la visibilité des sections d'expansion
-        document.querySelectorAll('.expansion-section').forEach(section => {
-            const expansionId = section.id.split('-')[1].toLowerCase();
-            if (selectedExpansion === '' || expansionId === selectedExpansion) {
-                section.style.display = 'block';
-            } else {
-                section.style.display = 'none';
-            }
-        });
-
-        // Filtrage des cartes
-        document.querySelectorAll('.card-container').forEach(card => {
-            const cardImage = card.querySelector('.card-image');
-            const cardName = cardImage.src
-                .split('/')
-                .pop()
-                .split('-')
-                .slice(-2, -1)[0]
-                .toLowerCase();
-            
-            const cardExpansion = card.dataset.cardId.split('-')[0].toLowerCase();
-            const cardNumber = card.dataset.cardId.split('-')[1];
-            
-            const matchesName = cardName.includes(nameSearch);
-            const matchesExpansion = selectedExpansion === '' || cardExpansion === selectedExpansion;
-            const matchesNumber = numberSearch === '' || cardNumber.includes(numberSearch);
-            
-            if (matchesName && matchesExpansion && matchesNumber) {
-                card.classList.remove('hidden');
-            } else {
-                card.classList.add('hidden');
-            }
-        });
     }
 
-    // Événements de recherche
-    nameSearchInput.addEventListener('input', filterCards);
-    expansionSelect.addEventListener('change', filterCards);
-    numberInput.addEventListener('input', filterCards);
+    function getExpansionColor(expansionId) {
+        return {
+            'A1': '#8431d1',
+            'A1a': '#49dcb1',
+            'A2': '#a4afbd'
+        }[expansionId] || 'white';
+    }
 
+    function getPackColor(packName) {
+        const colors = {
+            'Charizard': '#f84b04',
+            'Mewtwo': '#957eff',
+            'Pikachu': '#febe01',
+            'Mew': '#ffbadc',
+            'Dialga': '#3739e2',
+            'Palkia': '#d03ae4'
+        };
+        return colors[packName] || 'white';
+    }
+
+    function getExpansionName(expansionId) {
+        const names = {
+            'A1': 'Genetic Apex',
+            'A1a': 'Mythical Island',
+            'A2': 'Space-Time Smackdown'
+        };
+        return names[expansionId] || expansionId;
+    }
+
+    // Gestion des raretés
+    function getRaritySymbol(rarity) {
+        const symbolMap = {
+            'C': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">',
+            'U': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(2),
+            'R': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(3),
+            'RR': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(4),
+            'AR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">',
+            'SR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2),
+            'SAR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2) + ' (🌈)',
+            'IM': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(3),
+            'UR': '<img src="assets/image/rarity-icons/gold-crown.png" class="rarity-icon" alt="♛">'
+        };
+        return symbolMap[rarity] || rarity;
+    }
+
+    function getRarityOrder(rarity) {
+        const order = {
+            'C': 0,    // ♢
+            'U': 1,    // ♢♢
+            'R': 2,    // ♢♢♢
+            'RR': 3,   // ♢♢♢♢
+            'AR': 4,   // ☆
+            'SR': 5,   // ☆☆
+            'SAR': 6,  // ☆☆ 🌈
+            'IM': 7,   // ☆☆☆
+            'UR': 8    // ♛
+        };
+        return order[rarity] ?? 999; // Valeur par défaut élevée pour les raretés inconnues
+    }
+
+    // ====== CRÉATION DES ÉLÉMENTS DE L'INTERFACE ======
+    
+    // En-tête de la page
+    function createHeader() {
+        const header = document.createElement('header');
+        header.className = 'page-header';
+        
+        const headerContent = document.createElement('div');
+        headerContent.className = 'header-content';
+        
+        const titleRow = document.createElement('div');
+        titleRow.className = 'title-row';
+        
+        const title = document.createElement('h1');
+        title.className = 'header-title';
+        title.textContent = 'Pokémon Pocket Pack Selector by ';
+        
+        const profilePic = document.createElement('img');
+        profilePic.src = 'assets/image/profile-picture.png';
+        profilePic.alt = 'Profile Picture';
+        profilePic.className = 'profile-picture';
+        
+        const authorName = document.createElement('span');
+        authorName.textContent = '@aarensberg';
+        
+        const githubLink = document.createElement('a');
+        githubLink.href = 'https://github.com/aarensberg/pokemon-pocket-pack-selector';
+        githubLink.className = 'github-link';
+        githubLink.textContent = 'See the GitHub repository';
+        githubLink.target = '_blank';
+        
+        title.appendChild(authorName);
+        titleRow.appendChild(title);
+        titleRow.appendChild(profilePic);
+        headerContent.appendChild(titleRow);
+        headerContent.appendChild(githubLink);
+        header.appendChild(headerContent);
+        
+        return header;
+    }
+    
+    // Navigation des extensions
+    function createExpansionsNav() {
+        const expansionsNav = document.createElement('nav');
+        expansionsNav.className = 'expansions-nav';
+        
+        const expansionLinks = [
+            { id: 'A2', name: 'Space-Time Smackdown' },
+            { id: 'A1a', name: 'Mythical Island' },
+            { id: 'A1', name: 'Genetic Apex' }
+        ];
+        
+        expansionLinks.forEach(exp => {
+            const link = document.createElement('a');
+            link.href = `#expansion-${exp.id}`;
+            link.className = 'expansion-link';
+            link.dataset.expansion = exp.id;
+            link.textContent = exp.name;
+            expansionsNav.appendChild(link);
+        });
+        
+        return expansionsNav;
+    }
+    
+    // Déclarer les variables de recherche en dehors des fonctions pour les rendre accessibles globalement
+    let nameSearchInput, expansionSelect, numberInput;
+
+    // Barre de recherche
+    function createSearchBar() {
+        const searchContainer = document.createElement('div');
+        searchContainer.className = 'search-container';
+        
+        // Assigner les éléments aux variables globales
+        nameSearchInput = document.createElement('input');
+        nameSearchInput.type = 'text';
+        nameSearchInput.className = 'search-input';
+        nameSearchInput.placeholder = 'Search by name...';
+        
+        const idSearchGroup = document.createElement('div');
+        idSearchGroup.className = 'id-search-group';
+        
+        expansionSelect = document.createElement('select');
+        expansionSelect.className = 'expansion-select';
+        
+        // Ajout des options pour le select
+        const expansionOptions = [
+            { value: '', label: 'All expansions' },
+            { value: 'A1', label: 'Genetic Apex' },
+            { value: 'A1a', label: 'Mythical Island' },
+            { value: 'A2', label: 'Space-Time Smackdown' }
+        ];
+        
+        expansionOptions.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt.value;
+            option.textContent = opt.label;
+            expansionSelect.appendChild(option);
+        });
+        
+        numberInput = document.createElement('input');
+        numberInput.type = 'text';
+        numberInput.className = 'number-input';
+        numberInput.placeholder = 'Card #';
+        
+        // Ajout de la validation pour n'accepter que les chiffres
+        numberInput.addEventListener('input', (e) => {
+            e.target.value = e.target.value.replace(/\D/g, '');
+            filterCards();
+        });
+
+        numberInput.addEventListener('keypress', (e) => {
+            if (!/\d/.test(e.key)) {
+                e.preventDefault();
+            }
+        });
+
+        idSearchGroup.appendChild(expansionSelect);
+        idSearchGroup.appendChild(numberInput);
+        
+        searchContainer.appendChild(nameSearchInput);
+        searchContainer.appendChild(idSearchGroup);
+
+        // Événements de recherche
+        nameSearchInput.addEventListener('input', filterCards);
+        expansionSelect.addEventListener('change', filterCards);
+        numberInput.addEventListener('input', filterCards);
+        
+        return searchContainer;
+    }
+    
+    // Conteneur de navigation sticky
+    function createStickyNav(expansionsNav, searchContainer) {
+        const stickyNavContainer = document.createElement('div');
+        stickyNavContainer.className = 'sticky-nav-container';
+        
+        // Déplacer les éléments de navigation dans le conteneur
+        stickyNavContainer.appendChild(expansionsNav);
+        stickyNavContainer.appendChild(searchContainer);
+        
+        return stickyNavContainer;
+    }
+
+    // ====== GESTION DES CARTES ======
+    
+    // Création d'une section d'extension
     function createExpansionSection(expansionId) {
         const section = document.createElement('section');
         section.className = 'expansion-section';
@@ -238,111 +292,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         return section;
     }
-
-    // Ajout du conteneur de tooltip au body
-    const tooltip = document.createElement('div');
-    tooltip.className = 'card-tooltip';
-    document.body.appendChild(tooltip);
-
-    function positionTooltip(e, img) {
-        const padding = 15;
-        const tooltipWidth = tooltip.offsetWidth;
-        const tooltipHeight = tooltip.offsetHeight;
-        const imgRect = img.getBoundingClientRect();
-        
-        // Position le tooltip au-dessus de la carte
-        let x = imgRect.left + (imgRect.width / 2) - (tooltipWidth / 2);
-        let y = imgRect.top - tooltipHeight - padding;
-        
-        // Si le tooltip dépasse en haut, le positionner en dessous de la carte
-        if (y < 0) {
-            y = imgRect.bottom + padding;
-        }
-        
-        // Si le tooltip dépasse à gauche ou à droite, le recentrer horizontalement
-        if (x < padding) {
-            x = padding;
-        } else if (x + tooltipWidth > window.innerWidth - padding) {
-            x = window.innerWidth - tooltipWidth - padding;
-        }
-        
-        tooltip.style.left = `${x}px`;
-        tooltip.style.top = `${y}px`;
-    }
-
-    function getDustColor(cost) {
-        switch(cost) {
-            case 35: return '#c0c0c0';    // Gris clair
-            case 70: return '#89cff0';    // Bleu clair
-            case 150: return '#4169e1';   // Bleu royal
-            case 400: return '#800080';   // Violet
-            case 500: return '#9400d3';   // Violet foncé
-            case 1250: return '#ffd700';  // Or
-            case 1500: return '#ffa500';  // Orange
-            case 2500: return '#ff4500';  // Rouge-orange
-            default: return '#ffffff';    // Blanc par défaut
-        }
-    }
-
-    function getExpansionColor(expansionId) {
-        return {
-            'A1': '#8431d1',
-            'A1a': '#49dcb1',
-            'A2': '#a4afbd'
-        }[expansionId] || 'white';
-    }
-
-    function getPackColor(packName) {
-        const colors = {
-            'Charizard': '#f84b04',
-            'Mewtwo': '#957eff',
-            'Pikachu': '#febe01',
-            'Mew': '#ffbadc',
-            'Dialga': '#3739e2',
-            'Palkia': '#d03ae4'
-        };
-        return colors[packName] || 'white';
-    }
-
-    function getExpansionName(expansionId) {
-        const names = {
-            'A1': 'Genetic Apex',
-            'A1a': 'Mythical Island',
-            'A2': 'Space-Time Smackdown'
-        };
-        return names[expansionId] || expansionId;
-    }
-
-    function getRaritySymbol(rarity) {
-        const symbolMap = {
-            'C': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">',
-            'U': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(2),
-            'R': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(3),
-            'RR': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(4),
-            'AR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">',
-            'SR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2),
-            'SAR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2) + ' (🌈)',
-            'IM': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(3),
-            'UR': '<img src="assets/image/rarity-icons/gold-crown.png" class="rarity-icon" alt="♛">'
-        };
-        return symbolMap[rarity] || rarity;
-    }
-
-    function getRarityOrder(rarity) {
-        const order = {
-            'C': 0,    // ♢
-            'U': 1,    // ♢♢
-            'R': 2,    // ♢♢♢
-            'RR': 3,   // ♢♢♢♢
-            'AR': 4,   // ☆
-            'SR': 5,   // ☆☆
-            'SAR': 6,  // ☆☆ 🌈
-            'IM': 7,   // ☆☆☆
-            'UR': 8    // ♛
-        };
-        return order[rarity] ?? 999; // Valeur par défaut élevée pour les raretés inconnues
-    }
-
+    
+    // Création d'un élément carte
     function createCardElement(card) {
         const cardContainer = document.createElement('div');
         cardContainer.className = 'card-container';
@@ -412,7 +363,84 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         return cardContainer;
     }
+    
+    // Filtrage des cartes
+    function filterCards() {
+        const nameSearch = nameSearchInput.value.toLowerCase();
+        const selectedExpansion = expansionSelect.value.toLowerCase();
+        const numberSearch = numberInput.value.toLowerCase();
 
+        // Pour chaque section d'extension
+        document.querySelectorAll('.expansion-section').forEach(section => {
+            const expansionId = section.id.split('-')[1].toLowerCase();
+            const cards = section.querySelectorAll('.card-container');
+            let hasVisibleCards = false;
+
+            // Filtrage des cartes
+            cards.forEach(card => {
+                const cardImage = card.querySelector('.card-image');
+                const cardName = cardImage.src
+                    .split('/')
+                    .pop()
+                    .split('-')
+                    .slice(-2, -1)[0]
+                    .toLowerCase();
+                
+                const cardExpansion = card.dataset.cardId.split('-')[0].toLowerCase();
+                const cardNumber = card.dataset.cardId.split('-')[1];
+                
+                const matchesName = cardName.includes(nameSearch);
+                const matchesExpansion = selectedExpansion === '' || cardExpansion === selectedExpansion;
+                const matchesNumber = numberSearch === '' || cardNumber.includes(numberSearch);
+                
+                const isVisible = matchesName && matchesExpansion && matchesNumber;
+                card.classList.toggle('hidden', !isVisible);
+                
+                // Si au moins une carte est visible, on garde la section
+                if (isVisible) hasVisibleCards = true;
+            });
+
+            // Afficher/masquer la section en fonction de la présence de cartes visibles
+            section.style.display = (hasVisibleCards && (selectedExpansion === '' || expansionId === selectedExpansion)) ? 'block' : 'none';
+        });
+    }
+
+    // ====== GESTION DU TOOLTIP ======
+    
+    function createTooltip() {
+        const tooltip = document.createElement('div');
+        tooltip.className = 'card-tooltip';
+        return tooltip;
+    }
+
+    function positionTooltip(e, img) {
+        const padding = 15;
+        const tooltipWidth = tooltip.offsetWidth;
+        const tooltipHeight = tooltip.offsetHeight;
+        const imgRect = img.getBoundingClientRect();
+        
+        // Position le tooltip au-dessus de la carte
+        let x = imgRect.left + (imgRect.width / 2) - (tooltipWidth / 2);
+        let y = imgRect.top - tooltipHeight - padding;
+        
+        // Si le tooltip dépasse en haut, le positionner en dessous de la carte
+        if (y < 0) {
+            y = imgRect.bottom + padding;
+        }
+        
+        // Si le tooltip dépasse à gauche ou à droite, le recentrer horizontalement
+        if (x < padding) {
+            x = padding;
+        } else if (x + tooltipWidth > window.innerWidth - padding) {
+            x = window.innerWidth - tooltipWidth - padding;
+        }
+        
+        tooltip.style.left = `${x}px`;
+        tooltip.style.top = `${y}px`;
+    }
+
+    // ====== GESTION DES STATISTIQUES ======
+    
     function calculateCollectionStats() {
         const stats = {};
         
@@ -754,41 +782,60 @@ document.addEventListener('DOMContentLoaded', async () => {
         resultsWindow.document.close();
     }
 
-    // Supprimer les éléments liés au modal qui ne sont plus nécessaires
-    const resetBtn = document.createElement('button');
-    resetBtn.className = 'reset-btn';
-    resetBtn.textContent = 'Reset all';
-    resetBtn.addEventListener('click', () => {
-        // Désélection de toutes les cartes
-        document.querySelectorAll('.card-container').forEach(card => {
-            card.classList.remove('selected');
-            app.selectedCards.delete(card.dataset.cardId);
+    // ====== BOUTONS D'ACTION ======
+    
+    function createActionButtons() {
+        const actionButtonsContainer = document.createElement('div');
+        actionButtonsContainer.className = 'action-buttons';
+        
+        // Bouton Calculate
+        const calculateBtn = document.getElementById('calculate-btn');
+        calculateBtn.addEventListener('click', () => {
+            const rates = app.calculateBoosterRates();
+            displayResults(rates);
         });
-    });
+        
+        // Bouton Reset
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'reset-btn';
+        resetBtn.textContent = 'Reset all';
+        resetBtn.addEventListener('click', () => {
+            document.querySelectorAll('.card-container').forEach(card => {
+                card.classList.remove('selected');
+                app.selectedCards.delete(card.dataset.cardId);
+            });
+        });
+        
+        actionButtonsContainer.appendChild(calculateBtn);
+        actionButtonsContainer.appendChild(resetBtn);
+        return actionButtonsContainer;
+    }
 
-    // Créer un conteneur pour les boutons d'action
-    const actionButtonsContainer = document.createElement('div');
-    actionButtonsContainer.className = 'action-buttons';
-    actionButtonsContainer.appendChild(calculateBtn);
-    actionButtonsContainer.appendChild(resetBtn);
-
-    document.body.appendChild(actionButtonsContainer);
-
-    calculateBtn.addEventListener('click', () => {
-        const rates = app.calculateBoosterRates();
-        displayResults(rates);
-    });
-
-    // Organiser et afficher les cartes par extension
+    // ====== INITIALISATION DE L'APPLICATION ======
+    
+    // Création et insertion des éléments de l'interface
+    const header = createHeader();
+    const expansionsNav = createExpansionsNav();
+    const searchBar = createSearchBar();
+    const stickyNav = createStickyNav(expansionsNav, searchBar);
+    const actionButtons = createActionButtons();
+    const tooltip = createTooltip();
+    
+    document.querySelector('.container').insertBefore(header, mainContainer);
+    document.querySelector('.container').insertBefore(stickyNav, mainContainer);
+    document.body.appendChild(actionButtons);
+    document.body.appendChild(tooltip);
+    
+    // Organisation et affichage des cartes par extension
     const expansions = ['A2', 'A1a', 'A1'];
     const cardsByExpansion = {};
     
-    // Grouper les cartes par extension
+    // Groupement des cartes par extension
     expansions.forEach(exp => {
         cardsByExpansion[exp] = app.cards.filter(card => card.expansionId === exp);
     });
-
-    // Créer les sections pour chaque extension
+    
+    // Création des sections d'extension et affichage des cartes
     expansions.forEach(exp => {
         if (cardsByExpansion[exp].length > 0) {
             const section = createExpansionSection(exp);
@@ -796,18 +843,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             cardsByExpansion[exp].forEach(card => {
                 const cardElement = createCardElement(card);
-                if (cardElement) {
-                    grid.appendChild(cardElement);
-                }
+                if (cardElement) grid.appendChild(cardElement);
             });
             
             mainContainer.appendChild(section);
         }
-    });
-
-    // Gérer le calcul
-    calculateBtn.addEventListener('click', () => {
-        const rates = app.calculateBoosterRates();
-        displayResults(rates);
     });
 });
