@@ -293,11 +293,26 @@ document.addEventListener('DOMContentLoaded', async () => {
             'RR': '<img src="assets/image/rarity-icons/diamond.png" class="rarity-icon" alt="♢">'.repeat(4),
             'AR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">',
             'SR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2),
-            'SAR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2),
+            'SAR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2) + ' (🌈)',
             'IM': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(3),
             'UR': '<img src="assets/image/rarity-icons/gold-crown.png" class="rarity-icon" alt="♛">'
         };
         return symbolMap[rarity] || rarity;
+    }
+
+    function getRarityOrder(rarity) {
+        const order = {
+            'C': 0,    // ♢
+            'U': 1,    // ♢♢
+            'R': 2,    // ♢♢♢
+            'RR': 3,   // ♢♢♢♢
+            'AR': 4,   // ☆
+            'SR': 5,   // ☆☆
+            'SAR': 6,  // ☆☆ 🌈
+            'IM': 7,   // ☆☆☆
+            'UR': 8    // ♛
+        };
+        return order[rarity] ?? 999; // Valeur par défaut élevée pour les raretés inconnues
     }
 
     function createCardElement(card) {
@@ -335,10 +350,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="tooltip-info">
                     <span class="tooltip-label">Rarity</span>
                     <span>${getRaritySymbol(card.rarity)}</span>
-                </div>
-                <div class="tooltip-info">
-                    <span class="tooltip-label">Number</span>
-                    <span style="color: #ffd700">#${card.collectionNumber}</span>
                 </div>
                 <div class="tooltip-info">
                     <span class="tooltip-label">Dust Cost</span>
@@ -564,22 +575,24 @@ document.addEventListener('DOMContentLoaded', async () => {
                                     </span>
                                 </div>
                                 <div class="rarity-stats">
-                                    ${Object.entries(expStats.byRarity).map(([rarity, rarityStats]) => `
-                                        <div class="progress-container">
-                                            <span class="rarity-label">
-                                                ${getRaritySymbol(rarity)}
-                                            </span>
-                                            <div class="progress-bar">
-                                                <div class="progress-fill" style="
-                                                    width: ${(rarityStats.selected/rarityStats.total)*100}%;
-                                                    background: #4CAF50;
-                                                "></div>
+                                    ${Object.entries(expStats.byRarity)
+                                        .sort(([rarityA], [rarityB]) => getRarityOrder(rarityA) - getRarityOrder(rarityB))
+                                        .map(([rarity, rarityStats]) => `
+                                            <div class="progress-container">
+                                                <span class="rarity-label">
+                                                    ${getRaritySymbol(rarity)}
+                                                </span>
+                                                <div class="progress-bar">
+                                                    <div class="progress-fill" style="
+                                                        width: ${(rarityStats.selected/rarityStats.total)*100}%;
+                                                        background: #4CAF50;
+                                                    "></div>
+                                                </div>
+                                                <span class="progress-text">
+                                                    ${((rarityStats.selected/rarityStats.total)*100).toFixed(1)}%
+                                                </span>
                                             </div>
-                                            <span class="progress-text">
-                                                ${((rarityStats.selected/rarityStats.total)*100).toFixed(1)}%
-                                            </span>
-                                        </div>
-                                    `).join('')}
+                                        `).join('')}
                                 </div>
                             </div>
                         `).join('')}
