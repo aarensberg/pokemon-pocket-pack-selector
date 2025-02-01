@@ -58,11 +58,19 @@
     margin-bottom: 5px;
 }
 
-.calculate-btn {
+.action-buttons {
     position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 99;
+}
+
+.calculate-btn {
+    position: static; /* Modifié : n'est plus fixed */
+    transform: none;  /* Supprime la transformation précédente */
     padding: 15px 30px;
     font-size: 16px;
     background: #4CAF50;
@@ -78,7 +86,25 @@
 .calculate-btn:hover {
     background: #45a049;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transform: translateX(-50%) translateY(-2px);
+    /* Suppression de transform qui causait le déplacement */
+}
+
+.reset-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    background: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.reset-btn:hover {
+    background: #cc0000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
 }
 
 .results {
@@ -506,4 +532,17 @@
 /* Ajout d'un offset pour le scroll */
 html {
     scroll-padding-top: 200px; /* Valeur supérieure à la hauteur du sticky-nav-container */
+}
+
+.expansion-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+.expansion-ratio {
+    font-size: 16px;
+    font-weight: bold;
 }

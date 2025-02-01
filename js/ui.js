@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     function createExpansionSection(expansionId) {
         const section = document.createElement('section');
         section.className = 'expansion-section';
-        section.id = `expansion-${expansionId}`; // Ajout de l'ID pour le lien d'ancrage
+        section.id = `expansion-${expansionId}`;
         
         const header = document.createElement('div');
         header.className = 'expansion-header';
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         selectAllBtn.addEventListener('mouseenter', (e) => {
             const color = e.target.dataset.expansionColor;
-            e.target.style.backgroundColor = color.replace('1)', '0.8)'); // Réduit l'opacité pour l'effet hover
+            e.target.style.backgroundColor = color.replace('1)', '0.8)');
         });
         
         selectAllBtn.addEventListener('mouseleave', (e) => {
@@ -420,7 +420,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         expansions.forEach(exp => {
             stats[exp] = {
                 total: 0,
-                selected: 0,
+                remaining: 0,  // Renommé de 'selected' à 'remaining' pour plus de clarté
                 byRarity: {}
             };
         });
@@ -432,14 +432,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             // Stats par rareté
             if (!expStats.byRarity[card.rarity]) {
-                expStats.byRarity[card.rarity] = { total: 0, selected: 0 };
+                expStats.byRarity[card.rarity] = { total: 0, remaining: 0 };
             }
             expStats.byRarity[card.rarity].total++;
             
-            // Vérification si la carte est sélectionnée
-            if (app.selectedCards.has(`${card.expansionId}-${card.collectionNumber}`)) {
-                expStats.selected++;
-                expStats.byRarity[card.rarity].selected++;
+            // On compte les cartes non sélectionnées plutôt que les sélectionnées
+            if (!app.selectedCards.has(`${card.expansionId}-${card.collectionNumber}`)) {
+                expStats.remaining++;
+                expStats.byRarity[card.rarity].remaining++;
             }
         });
 
@@ -448,6 +448,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function displayResults(rates) {
         const stats = calculateCollectionStats();
+        const totalStats = Object.values(stats).reduce(
+            (acc, expStats) => ({
+                remaining: acc.remaining + expStats.remaining,
+                total: acc.total + expStats.total
+            }),
+            { remaining: 0, total: 0 }
+        );
         
         const resultsHTML = `
             <!DOCTYPE html>
@@ -582,25 +589,110 @@ document.addEventListener('DOMContentLoaded', async () => {
                         vertical-align: middle;
                         margin: 0 1px;
                     }
+
+                    .expansion-title {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                    }
+                    
+                    .cards-ratio {
+                        font-size: 16px;
+                        color: #666;
+                        font-weight: normal;
+                    }
+                    .stats-section-header {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 15px;
+                    }
+                    
+                    .cards-ratio {
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+                    .main-header {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 30px;
+                        padding-bottom: 15px;
+                        border-bottom: 2px solid #eee;
+                    }
+                    
+                    .main-header h1 {
+                        margin: 0;
+                        padding: 0;
+                        border: none;
+                    }
+                    
+                    .total-ratio {
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #333;
+                    }
+                    .stats-info {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                    
+                    .progress-text {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        font-size: 14px;
+                        min-width: 160px;  /* Augmenté pour accommoder le ratio */
+                        text-align: right;
+                    }
+
+                    .ratio {
+                        color: #666;
+                        font-weight: normal;
+                    }
+                    .expansion-info {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                    }
+
+                    .expansion-ratio {
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: inherit;
+                    }
                 </style>
             </head>
             <body>
                 <div class="results-container">
                     <div class="stats-column">
-                        <h1>Collection Statistics</h1>
+                        <div class="main-header">
+                            <h1>Collection Statistics</h1>
+                            <div class="stats-info">
+                                <span class="ratio">(${totalStats.remaining}/${totalStats.total})</span>
+                                <span class="total-ratio">${((totalStats.remaining/totalStats.total)*100).toFixed(1)}%</span>
+                            </div>
+                        </div>
                         ${Object.entries(stats).map(([expId, expStats]) => `
                             <div class="stats-section">
-                                <h2 style="color: ${getExpansionColor(expId)}">${getExpansionName(expId)}</h2>
+                                <div class="stats-section-header">
+                                    <h2 style="color: ${getExpansionColor(expId)}">${getExpansionName(expId)}</h2>
+                                    <span class="expansion-ratio" style="color: ${getExpansionColor(expId)}">
+                                        (${expStats.remaining}/${expStats.total})
+                                    </span>
+                                </div>
                                 <div class="progress-container">
                                     <div class="progress-bar">
                                         <div class="progress-fill" style="
-                                            width: ${(expStats.selected/expStats.total)*100}%;
+                                            width: ${(expStats.remaining/expStats.total)*100}%;
                                             background: ${getExpansionColor(expId)};
                                         "></div>
                                     </div>
-                                    <span class="progress-text">
-                                        ${((expStats.selected/expStats.total)*100).toFixed(1)}%
-                                    </span>
+                                    <div class="progress-text">
+                                        <span class="ratio">(${expStats.remaining}/${expStats.total})</span>
+                                        <span>${((expStats.remaining/expStats.total)*100).toFixed(1)}%</span>
+                                    </div>
                                 </div>
                                 <div class="rarity-stats">
                                     ${Object.entries(expStats.byRarity)
@@ -612,13 +704,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                                                 </span>
                                                 <div class="progress-bar">
                                                     <div class="progress-fill" style="
-                                                        width: ${(rarityStats.selected/rarityStats.total)*100}%;
+                                                        width: ${(rarityStats.remaining/rarityStats.total)*100}%;
                                                         background: #4CAF50;
                                                     "></div>
                                                 </div>
-                                                <span class="progress-text">
-                                                    ${((rarityStats.selected/rarityStats.total)*100).toFixed(1)}%
-                                                </span>
+                                                <div class="progress-text">
+                                                    <span class="ratio">(${rarityStats.remaining}/${rarityStats.total})</span>
+                                                    <span>${((rarityStats.remaining/rarityStats.total)*100).toFixed(1)}%</span>
+                                                </div>
                                             </div>
                                         `).join('')}
                                 </div>
@@ -662,6 +755,25 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     // Supprimer les éléments liés au modal qui ne sont plus nécessaires
+    const resetBtn = document.createElement('button');
+    resetBtn.className = 'reset-btn';
+    resetBtn.textContent = 'Reset all';
+    resetBtn.addEventListener('click', () => {
+        // Désélection de toutes les cartes
+        document.querySelectorAll('.card-container').forEach(card => {
+            card.classList.remove('selected');
+            app.selectedCards.delete(card.dataset.cardId);
+        });
+    });
+
+    // Créer un conteneur pour les boutons d'action
+    const actionButtonsContainer = document.createElement('div');
+    actionButtonsContainer.className = 'action-buttons';
+    actionButtonsContainer.appendChild(calculateBtn);
+    actionButtonsContainer.appendChild(resetBtn);
+
+    document.body.appendChild(actionButtonsContainer);
+
     calculateBtn.addEventListener('click', () => {
         const rates = app.calculateBoosterRates();
         displayResults(rates);
