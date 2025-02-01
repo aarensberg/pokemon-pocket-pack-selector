@@ -4,9 +4,15 @@ class PokemonCardSelector {
         this.selectedCards = new Set();
     }
 
+    // Intégration de la fonction fetchGameData
+    async #fetchGameData() {
+        const response = await fetch('assets/data/cards.json');
+        return response.json();
+    }
+
     async initialize() {
         try {
-            const cards = await fetchGameData();
+            const cards = await this.#fetchGameData();
             
             this.cards = cards.map(card => {
                 // Création de l'objet de base

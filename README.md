@@ -1,55 +1,71 @@
 # Pokémon Pocket Pack Selector
 
-A web application that calculates the score of each booster according to the cards you want.
+Une application web qui calcule le score de chaque booster en fonction des cartes souhaitées.
 
 ## 📋 Description
 
-This app helps Pokémon-pocket players optimize their booster purchases by calculating the drop rates of desired cards based on the dust cost of each card.
+Cette application aide les joueurs de Pokémon Pocket à optimiser leurs achats de boosters en :
+- Calculant les taux de drop des cartes souhaitées
+- Prenant en compte le coût en poussière des cartes
+- Affichant des statistiques détaillées sur la collection
+- Proposant une interface intuitive pour la sélection des cartes
 
-## 🚀 Usage
+## 🚀 Utilisation
 
-1. Go to https://aarensberg.github.io/pokemon-pocket-pack-selector/
+1. Accédez à https://aarensberg.github.io/pokemon-pocket-pack-selector/
+2. Parcourez et sélectionnez les cartes que vous souhaitez obtenir
+3. Utilisez les filtres pour rechercher des cartes spécifiques :
+   - Par nom
+   - Par extension
+   - Par numéro de carte
+4. Cliquez sur "Calculate scores" pour voir les résultats détaillés
 
-2. Select the cards you wish to obtain
+## 🛠 Fonctionnalités
 
-3. Click on the `Calculate scores` button
+### Interface principale
+- Affichage organisé des cartes par extension
+- Système de filtrage dynamique des cartes
+- Sélection individuelle ou groupée des cartes
+- Navigation par extension avec liens d'ancrage
+- Tooltip détaillé pour chaque carte
 
-## 🛠 Features
+### Statistiques de collection
+- Vue d'ensemble de la progression par extension
+- Statistiques détaillées par rareté
+- Calcul des pourcentages de complétion
+- Visualisation avec barres de progression
 
-- Display of available maps with illustrations
-- Multiple card selection via checkboxes
-- Automatic calculation of drop rates per booster
-- Ranking of boosters by efficiency
+### Calcul des boosters
+- Analyse des taux de drop par booster
+- Prise en compte du coût en poussière
+- Classement des boosters par efficacité
+- Affichage des scores dans une nouvelle fenêtre
 
-## 📁 Project structure
+## 🔧 Technologies utilisées
+
+- HTML5 : Structure de l'application
+- CSS3 : Mise en page et animations
+- JavaScript (ES6+) :
+  - Classes et modules
+  - Async/Await pour les requêtes
+  - Manipulation avancée du DOM
+  - Gestion d'événements
+
+## 📁 Structure du projet
 
 ```
 pokemon-booster-selector/
 ├── assets/
-│ ├── data/
-│ │ ├── cards-fetcher.py
-│ │ ├── cards.json
-│ │ └── offering-rates.json
-│ ├── image/
-│ │ ├── cards-illustrations/
-│ │ ├── expansions-logo/
-│ │ ├── packs-illustrations/
-│ │ ├── rarity-icons/
-│ │ └── profile-picture.png
+│   ├── data/
+│   │   └── cards.json        # Données des cartes
+│   └── image/                # Images des cartes et icônes
 ├── css/
-│ └── style.css
+│   └── style.css             # Styles de l'application
 ├── js/
-│ ├── app.js
-│ ├── requests.js
-│ └── ui.js
-└── index.html
+│   ├── app.js                # Logique métier et calculs
+│   └── ui.js                 # Interface utilisateur
+└── index.html                # Page principale
 ```
-
-## 🔧 Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
 
 ## 📝 License
 
