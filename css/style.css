@@ -349,17 +349,12 @@
 .select-all-btn {
     padding: 12px 24px;
     font-size: 16px;
-    background: #4CAF50;
     color: white;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: auto;
-}
-
-.select-all-btn:hover {
-    background: #45a049;
 }
 
 .card-tooltip {

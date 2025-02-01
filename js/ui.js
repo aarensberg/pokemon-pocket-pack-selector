@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     expansionsNav.className = 'expansions-nav';
     
     const expansionLinks = [
-        { id: 'A1', name: 'Genetic Apex' },
+        { id: 'A2', name: 'Space-Time Smackdown' },
         { id: 'A1a', name: 'Mythical Island' },
-        { id: 'A2', name: 'Space-Time Smackdown' }
+        { id: 'A1', name: 'Genetic Apex' }
     ];
     
     expansionLinks.forEach(exp => {
@@ -130,14 +130,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         const selectedExpansion = expansionSelect.value.toLowerCase();
         const numberSearch = numberInput.value.toLowerCase();
 
+        // Gestion de la visibilité des sections d'expansion
+        document.querySelectorAll('.expansion-section').forEach(section => {
+            const expansionId = section.id.split('-')[1].toLowerCase();
+            if (selectedExpansion === '' || expansionId === selectedExpansion) {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        });
+
+        // Filtrage des cartes
         document.querySelectorAll('.card-container').forEach(card => {
-            const cardName = card.querySelector('.card-image').src
+            const cardImage = card.querySelector('.card-image');
+            const cardName = cardImage.src
+                .split('/')
+                .pop()
                 .split('-')
                 .slice(-2, -1)[0]
                 .toLowerCase();
             
-            const cardExpansion = card.querySelector('input').dataset.expansionId.toLowerCase();
-            const cardNumber = card.querySelector('input').dataset.cardNumber;
+            const cardExpansion = card.dataset.cardId.split('-')[0].toLowerCase();
+            const cardNumber = card.dataset.cardId.split('-')[1];
             
             const matchesName = cardName.includes(nameSearch);
             const matchesExpansion = selectedExpansion === '' || cardExpansion === selectedExpansion;
@@ -179,7 +193,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const selectAllBtn = document.createElement('button');
         selectAllBtn.className = 'select-all-btn';
+        selectAllBtn.style.backgroundColor = getExpansionColor(expansionId);
         selectAllBtn.textContent = 'Select all';
+        
+        // Ajout des styles pour le hover via un dataset
+        selectAllBtn.dataset.expansionColor = getExpansionColor(expansionId);
+        
+        selectAllBtn.addEventListener('mouseenter', (e) => {
+            const color = e.target.dataset.expansionColor;
+            e.target.style.backgroundColor = color.replace('1)', '0.8)'); // Réduit l'opacité pour l'effet hover
+        });
+        
+        selectAllBtn.addEventListener('mouseleave', (e) => {
+            e.target.style.backgroundColor = e.target.dataset.expansionColor;
+        });
+        
         selectAllBtn.addEventListener('click', () => {
             const cards = section.querySelectorAll('.card-container');
             const allSelected = Array.from(cards).every(card => card.classList.contains('selected'));

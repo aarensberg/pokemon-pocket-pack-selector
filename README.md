@@ -33,7 +33,9 @@ pokemon-booster-selector/
 │ ├── image/
 │ │ ├── cards-illustrations/
 │ │ ├── expansions-logo/
-│ │ └── packs-illustrations/
+│ │ ├── packs-illustrations/
+│ │ ├── rarity-icons/
+│ │ └── profile-picture.png
 ├── css/
 │ └── style.css
 ├── js/
