@@ -79,6 +79,50 @@ document.addEventListener('DOMContentLoaded', async () => {
         return order[rarity] ?? 999; // Valeur par défaut élevée pour les raretés inconnues
     }
 
+    // Ajout des fonctions de gestion des sauvegardes après les fonctions utilitaires
+    function downloadSelections() {
+        const data = {
+            date: new Date().toISOString(),
+            selectedCards: Array.from(app.selectedCards)
+        };
+        
+        const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `pokemon-selection-${new Date().toISOString().split('T')[0]}.json`;
+        a.click();
+        window.URL.revokeObjectURL(url);
+    }
+
+    async function loadSelections(file) {
+        try {
+            const text = await file.text();
+            const data = JSON.parse(text);
+            
+            if (!data.selectedCards) {
+                throw new Error('Invalid file format');
+            }
+
+            // Désélectionner toutes les cartes actuelles
+            document.querySelectorAll('.card-container').forEach(card => {
+                card.classList.remove('selected');
+            });
+            app.selectedCards.clear();
+
+            // Sélectionner les cartes du fichier
+            data.selectedCards.forEach(cardId => {
+                const cardElement = document.querySelector(`.card-container[data-card-id="${cardId}"]`);
+                if (cardElement) {
+                    cardElement.classList.add('selected');
+                    app.selectedCards.add(cardId);
+                }
+            });
+        } catch (error) {
+            alert('Error loading file: ' + error.message);
+        }
+    }
+
     // ====== CRÉATION DES ÉLÉMENTS DE L'INTERFACE ======
     
     // En-tête de la page
@@ -97,7 +141,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         title.textContent = 'Pokémon Pocket Pack Selector by ';
         
         const profilePic = document.createElement('img');
-        profilePic.src = 'assets/image/profile-picture.png';
+        profilePic.src = 'assets/image/other/profile-picture.png';
         profilePic.alt = 'Profile Picture';
         profilePic.className = 'profile-picture';
         
@@ -116,6 +160,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         headerContent.appendChild(titleRow);
         headerContent.appendChild(githubLink);
         header.appendChild(headerContent);
+
+        const uploadContainer = document.createElement('div');
+        uploadContainer.className = 'upload-container';
+        
+        const uploadLabel = document.createElement('label');
+        uploadLabel.textContent = 'Load selection: ';
+        uploadLabel.htmlFor = 'selection-file';
+        
+        const uploadInput = document.createElement('input');
+        uploadInput.type = 'file';
+        uploadInput.id = 'selection-file';
+        uploadInput.accept = '.json';
+        
+        uploadInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                loadSelections(e.target.files[0]);
+            }
+        });
+        
+        uploadContainer.appendChild(uploadLabel);
+        uploadContainer.appendChild(uploadInput);
+        headerContent.appendChild(uploadContainer);
         
         return header;
     }
@@ -165,7 +231,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         // Ajout des options pour le select
         const expansionOptions = [
-            { value: '', label: 'All expansions' },
+            { value: '', label: 'All sets' },
             { value: 'A1', label: 'Genetic Apex' },
             { value: 'A1a', label: 'Mythical Island' },
             { value: 'A2', label: 'Space-Time Smackdown' }
@@ -243,7 +309,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         logo.alt = `Logo ${expansionId}`;
         
         const title = document.createElement('h2');
-        title.textContent = `${getExpansionName(expansionId)} Card List`;
+        title.textContent = `${getExpansionName(expansionId)} (${expansionId}) Card List`;
         
         const selectAllBtn = document.createElement('button');
         selectAllBtn.className = 'select-all-btn';
@@ -335,7 +401,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <span style="color: ${getDustColor(card.dustCost)}">${card.dustCost}</span>
                 </div>
                 <div class="tooltip-info">
-                    <span class="tooltip-label">Expansion</span>
+                    <span class="tooltip-label">Set</span>
                     <span style="color: ${getExpansionColor(card.expansionId)}">${getExpansionName(card.expansionId)}</span>
                 </div>
                 <div class="tooltip-section">
@@ -473,6 +539,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         return stats;
     }
+
+    // Rendre la fonction downloadSelections accessible globalement
+    window.downloadSelections = downloadSelections;
 
     function displayResults(rates) {
         const stats = calculateCollectionStats();
@@ -690,9 +759,37 @@ document.addEventListener('DOMContentLoaded', async () => {
                         font-weight: bold;
                         color: inherit;
                     }
+                    .download-section {
+                        text-align: center;
+                        margin-bottom: 30px;
+                        width: 100%;
+                    }
+
+                    .download-button {
+                        display: inline-block;
+                        padding: 12px 30px;
+                        background: #4CAF50;
+                        color: white;
+                        border: none;
+                        border-radius: 25px;
+                        cursor: pointer;
+                        font-size: 16px;
+                        transition: all 0.3s ease;
+                    }
+
+                    .download-button:hover {
+                        background: #45a049;
+                        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                        transform: translateY(-2px);
+                    }
                 </style>
             </head>
             <body>
+                <div class="download-section">
+                    <button class="download-button" onclick="window.opener.window.downloadSelections()">
+                        Download selection
+                    </button>
+                </div>
                 <div class="results-container">
                     <div class="stats-column">
                         <div class="main-header">
@@ -748,7 +845,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                     </div>
                     
                     <div class="scores-column">
-                        <h1>Booster Scores</h1>
+                        <div class="main-header">
+                            <h1>Booster Scores</h1>
+                        </div>
                         <div class="pack-results">
                             ${Object.entries(rates).map(([booster, rate]) => `
                                 <div class="pack-result">
