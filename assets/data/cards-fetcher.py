@@ -2,13 +2,13 @@ from requests import get
 from json import load, dump
 from os import rename
 
+# access the APIs
 game_data = get('https://www.pokemon-zone.com/api/game/game-data/').json()
 data = get('https://www.pokemon-zone.com/api/cards/search/data/').json()
-
 pack_options = data['data']['packOptions']
 
+# structure the data
 cards = []
-
 for card in game_data['data']['cards']:
     cards.append({
         'rarity': card['rarity'],
@@ -21,8 +21,8 @@ for card in game_data['data']['cards']:
 
 cards = sorted(cards, key=lambda x: (x["expansionId"], x["collectionNumber"]))
 
+# calculate the drop rates
 offering_rates = load(open('assets/data/offering-rates.json'))
-
 for pack in set([pack for card in cards for pack in card['foundInPacks']]):
     for card in cards:
         if pack in card['foundInPacks']:
@@ -32,8 +32,8 @@ for pack in set([pack for card in cards for pack in card['foundInPacks']]):
                 offering_rates[pack]['Regular pack']['5th card'][card['rarity']]
             ) + 0.05 * (offering_rates[pack]['Rare pack'][card['rarity']] * 5)) / 100
 
-rename('assets/data/cards.json', 'assets/data/cards-temp.json')
-with open('assets/data/cards.json', 'w') as f:
+rename('assets/data/cards.json', 'assets/data/cards-temp.json') # backup the old data
+with open('assets/data/cards.json', 'w') as f: # save the new data
     dump(cards, f, indent=4)
 
 print('Done!')

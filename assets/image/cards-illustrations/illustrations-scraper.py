@@ -10,7 +10,8 @@ for card in game_data['data']['cards']:
     name = card['name']
     rarity = card['rarity']
     
-    with open(f"assets/image/cards-illustrations/{expansionId}-{collectionNumber}-{name}-{rarity}.png", 'wb') as f:
-        f.write(get(illustration).content)
+    if expansionId=='A2a': # scrape only from the last expansion (orther images are already in the repo)
+        with open(f"assets/image/cards-illustrations/{expansionId}-{collectionNumber}-{name}-{rarity}.png", 'wb') as f:
+            f.write(get(illustration).content)
 
 print('Done!')

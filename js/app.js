@@ -26,7 +26,7 @@ class PokemonCardSelector {
                 };
 
                 // Mise à jour pour n'inclure que les boosters actifs
-                const boosters = ['Charizard', 'Mewtwo', 'Pikachu', 'Mew', 'Dialga', 'Palkia'];
+                const boosters = ['Charizard', 'Mewtwo', 'Pikachu', 'Mew', 'Dialga', 'Palkia', 'Arceus'];
                 boosters.forEach(booster => {
                     const dropRateKey = `Drop Rate ${booster}`;
                     if (card[dropRateKey]) {
@@ -36,11 +36,6 @@ class PokemonCardSelector {
 
                 return cardData;
             });
-
-            // Filtrer pour ne garder que les cartes des expansions actives
-            this.cards = this.cards.filter(card => 
-                ['A1', 'A1a', 'A2'].includes(card.expansionId)
-            );
 
             return this.cards;
         } catch (error) {

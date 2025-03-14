@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         return {
             'A1': '#8431d1',
             'A1a': '#49dcb1',
-            'A2': '#a4afbd'
+            'A2': '#a4afbd',
+            'A2a': '#fcb038'
         }[expansionId] || 'white';
     }
 
@@ -34,7 +35,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             'Pikachu': '#febe01',
             'Mew': '#ffbadc',
             'Dialga': '#3739e2',
-            'Palkia': '#d03ae4'
+            'Palkia': '#d03ae4',
+            'Arceus': '#f3c639',
         };
         return colors[packName] || 'white';
     }
@@ -43,7 +45,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const names = {
             'A1': 'Genetic Apex',
             'A1a': 'Mythical Island',
-            'A2': 'Space-Time Smackdown'
+            'A2': 'Space-Time Smackdown',
+            'A2a': 'Triumphant Light'
         };
         return names[expansionId] || expansionId;
     }
@@ -192,6 +195,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         expansionsNav.className = 'expansions-nav';
         
         const expansionLinks = [
+            { id: 'A2a', name: 'Triumphant Light' },
             { id: 'A2', name: 'Space-Time Smackdown' },
             { id: 'A1a', name: 'Mythical Island' },
             { id: 'A1', name: 'Genetic Apex' }
@@ -234,7 +238,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             { value: '', label: 'All sets' },
             { value: 'A1', label: 'Genetic Apex' },
             { value: 'A1a', label: 'Mythical Island' },
-            { value: 'A2', label: 'Space-Time Smackdown' }
+            { value: 'A2', label: 'Space-Time Smackdown' },
+            { value: 'A2a', label: 'Triumphant Light' }
         ];
         
         expansionOptions.forEach(opt => {
@@ -510,30 +515,36 @@ document.addEventListener('DOMContentLoaded', async () => {
     function calculateCollectionStats() {
         const stats = {};
         
+        // Utiliser les expansions définies plus tôt dans le code
+        // Il s'agit d'une variable locale définie dans le bloc principal
+        const expansionsToUse = ['A2a', 'A2', 'A1a', 'A1'];
+        
         // Initialisation des stats par extension
-        expansions.forEach(exp => {
+        expansionsToUse.forEach(exp => {
             stats[exp] = {
                 total: 0,
-                remaining: 0,  // Renommé de 'selected' à 'remaining' pour plus de clarté
+                remaining: 0,
                 byRarity: {}
             };
         });
 
-        // Calcul des statistiques
+        // Calcul des statistiques avec vérification supplémentaire pour la sécurité
         app.cards.forEach(card => {
-            const expStats = stats[card.expansionId];
-            expStats.total++;
-            
-            // Stats par rareté
-            if (!expStats.byRarity[card.rarity]) {
-                expStats.byRarity[card.rarity] = { total: 0, remaining: 0 };
-            }
-            expStats.byRarity[card.rarity].total++;
-            
-            // On compte les cartes non sélectionnées plutôt que les sélectionnées
-            if (!app.selectedCards.has(`${card.expansionId}-${card.collectionNumber}`)) {
-                expStats.remaining++;
-                expStats.byRarity[card.rarity].remaining++;
+            if (stats[card.expansionId]) { // Vérification que l'extension existe dans notre objet stats
+                const expStats = stats[card.expansionId];
+                expStats.total++;
+                
+                // Stats par rareté
+                if (!expStats.byRarity[card.rarity]) {
+                    expStats.byRarity[card.rarity] = { total: 0, remaining: 0 };
+                }
+                expStats.byRarity[card.rarity].total++;
+                
+                // On compte les cartes non sélectionnées plutôt que les sélectionnées
+                if (!app.selectedCards.has(`${card.expansionId}-${card.collectionNumber}`)) {
+                    expStats.remaining++;
+                    expStats.byRarity[card.rarity].remaining++;
+                }
             }
         });
 
@@ -887,12 +898,23 @@ document.addEventListener('DOMContentLoaded', async () => {
         const actionButtonsContainer = document.createElement('div');
         actionButtonsContainer.className = 'action-buttons';
         
-        // Bouton Calculate
-        const calculateBtn = document.getElementById('calculate-btn');
-        calculateBtn.addEventListener('click', () => {
-            const rates = app.calculateBoosterRates();
-            displayResults(rates);
-        });
+        // Bouton Calculate - avec logs de débogage
+        const calculateBtn = document.createElement('button');
+        calculateBtn.id = 'calculate-btn';
+        calculateBtn.className = 'calculate-btn';
+        calculateBtn.textContent = 'Calculate scores';
+        
+        // Ajout d'un gestionnaire d'événement directement sur l'élément
+        calculateBtn.onclick = function() {
+            console.log('Calculate button clicked');
+            try {
+                const rates = app.calculateBoosterRates();
+                console.log('Rates calculated:', rates);
+                displayResults(rates);
+            } catch (error) {
+                console.error('Error calculating rates:', error);
+            }
+        };
         
         // Bouton Reset
         const resetBtn = document.createElement('button');
@@ -926,7 +948,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.body.appendChild(tooltip);
     
     // Organisation et affichage des cartes par extension
-    const expansions = ['A2', 'A1a', 'A1'];
+    const expansions = ['A2a', 'A2', 'A1a', 'A1'];
     const cardsByExpansion = {};
     
     // Groupement des cartes par extension
