@@ -26,7 +26,9 @@ class PokemonCardSelector {
                 };
 
                 // Mise à jour pour n'inclure que les boosters actifs
-                const boosters = ['Charizard', 'Mewtwo', 'Pikachu', 'Mew', 'Dialga', 'Palkia', 'Arceus'];
+                const boosters = [
+                    'Charizard', 'Mewtwo', 'Pikachu', 'Mew', 'Dialga', 'Palkia',
+                    'Arceus', 'Shining', 'Lunala', 'Solgaleo'];
                 boosters.forEach(booster => {
                     const dropRateKey = `Drop Rate ${booster}`;
                     if (card[dropRateKey]) {

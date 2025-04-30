@@ -104,6 +104,21 @@ html {
 }
 
 /* Couleurs spécifiques pour chaque extension */
+.expansion-link[data-expansion="A3"] {
+    color: #0e46ae;
+    border: 2px solid #0e46ae;
+}
+
+.expansion-link[data-expansion="A2b"] {
+    color: #f6cce3;
+    border: 2px solid #f6cce3;
+}
+
+.expansion-link[data-expansion="A2a"] {
+    color: #fcb038;
+    border: 2px solid #fcb038;
+}
+
 .expansion-link[data-expansion="A2"] {
     color: #a4afbd;
     border: 2px solid #a4afbd;

@@ -21,22 +21,27 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function getExpansionColor(expansionId) {
         return {
-            'A1': '#8431d1',
-            'A1a': '#49dcb1',
-            'A2': '#a4afbd',
-            'A2a': '#fcb038'
+            'A1': '#8431d1',   // violet foncé
+            'A1a': '#49dcb1',  // émeraude
+            'A2': '#a4afbd',   // gris
+            'A2a': '#fcb038',  // orange
+            'A2b': '#f6cce3',  // rose pâle
+            'A3': '#0e46ae'    // bleu roi
         }[expansionId] || 'white';
     }
 
     function getPackColor(packName) {
         const colors = {
-            'Charizard': '#f84b04',
-            'Mewtwo': '#957eff',
-            'Pikachu': '#febe01',
-            'Mew': '#ffbadc',
-            'Dialga': '#3739e2',
-            'Palkia': '#d03ae4',
-            'Arceus': '#f3c639',
+            'Charizard': '#f84b04',  // orange foncé
+            'Mewtwo': '#957eff',     // violet pâle
+            'Pikachu': '#febe01',    // jaune orangé
+            'Mew': '#ffbadc',        // rose pâle
+            'Dialga': '#3739e2',     // bleu foncé
+            'Palkia': '#d03ae4',     // rose violet
+            'Arceus': '#f3c639',     // jaune doré
+            'Shining': '#b5cc35',    // caca d'oie
+            'Lunala': '#675aee',     // bleu céleste
+            'Solgaleo': '#78370b'    // marron
         };
         return colors[packName] || 'white';
     }
@@ -46,7 +51,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             'A1': 'Genetic Apex',
             'A1a': 'Mythical Island',
             'A2': 'Space-Time Smackdown',
-            'A2a': 'Triumphant Light'
+            'A2a': 'Triumphant Light',
+            'A2b': 'Shining Revelry',
+            'A3': 'Celestial Guardians'
         };
         return names[expansionId] || expansionId;
     }
@@ -62,6 +69,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             'SR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2),
             'SAR': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(2) + ' (🌈)',
             'IM': '<img src="assets/image/rarity-icons/star.png" class="rarity-icon" alt="☆">'.repeat(3),
+            'S': '<img src="assets/image/rarity-icons/shiny.png" class="rarity-icon" alt="★">',
+            'SSR': '<img src="assets/image/rarity-icons/shiny.png" class="rarity-icon" alt="★">'.repeat(2),
             'UR': '<img src="assets/image/rarity-icons/gold-crown.png" class="rarity-icon" alt="♛">'
         };
         return symbolMap[rarity] || rarity;
@@ -77,7 +86,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             'SR': 5,   // ☆☆
             'SAR': 6,  // ☆☆ 🌈
             'IM': 7,   // ☆☆☆
-            'UR': 8    // ♛
+            'S': 8,    // ★
+            'SSR': 9,  // ★★
+            'UR': 10   // ♛
         };
         return order[rarity] ?? 999; // Valeur par défaut élevée pour les raretés inconnues
     }
@@ -195,6 +206,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         expansionsNav.className = 'expansions-nav';
         
         const expansionLinks = [
+            { id: 'A3', name: 'Celestial Guardians' },
+            { id: 'A2b', name: 'Shining Revelry' },
             { id: 'A2a', name: 'Triumphant Light' },
             { id: 'A2', name: 'Space-Time Smackdown' },
             { id: 'A1a', name: 'Mythical Island' },
@@ -239,7 +252,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             { value: 'A1', label: 'Genetic Apex' },
             { value: 'A1a', label: 'Mythical Island' },
             { value: 'A2', label: 'Space-Time Smackdown' },
-            { value: 'A2a', label: 'Triumphant Light' }
+            { value: 'A2a', label: 'Triumphant Light' },
+            { value: 'A2b', label: 'Shining Revelry' },
+            { value: 'A3', label: 'Celestial Guardians' }
         ];
         
         expansionOptions.forEach(opt => {
@@ -517,7 +532,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         // Utiliser les expansions définies plus tôt dans le code
         // Il s'agit d'une variable locale définie dans le bloc principal
-        const expansionsToUse = ['A2a', 'A2', 'A1a', 'A1'];
+        const expansionsToUse = ['A3', 'A2b', 'A2a', 'A2', 'A1a', 'A1'];
         
         // Initialisation des stats par extension
         expansionsToUse.forEach(exp => {
@@ -948,7 +963,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.body.appendChild(tooltip);
     
     // Organisation et affichage des cartes par extension
-    const expansions = ['A2a', 'A2', 'A1a', 'A1'];
+    const expansions = ['A3', 'A2b', 'A2a', 'A2', 'A1a', 'A1'];
     const cardsByExpansion = {};
     
     // Groupement des cartes par extension
